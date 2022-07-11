@@ -1,0 +1,26 @@
+# INT configuration
+source:
+  - s1
+transit:
+  - s2
+  - s3
+sink:
+  - s4
+collector: 10.0.2.2
+flows:
+  - ipv4_dest: 10.0.4.4
+    l4_proto: tcp
+    port_dest: 55555
+instructions:
+  - node_id
+
+# Possible metadata instructions:
+# - node_id
+# - lv1_if_id
+# - hop_latency
+# - queue_id_occupancy
+# - ingress_timestamp
+# - egress_timestamp
+# - lv2_if_id
+# - eg_if_tx_util
+# - buffer_id_occupancy
