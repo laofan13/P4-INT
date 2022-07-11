@@ -1,0 +1,40 @@
+Obtaining JSON from switch...
+Done
+Control utility for runtime P4 table manipulation
+RuntimeCmd: Adding entry to lpm match table l3_forward.ipv4_lpm
+match key:           LPM-0a:00:01:01/32
+action:              ipv4_forward
+runtime data:        00:00:0a:00:01:01	00:01
+Entry has been added with handle 0
+RuntimeCmd: Adding entry to lpm match table l3_forward.ipv4_lpm
+match key:           LPM-0a:00:03:02/24
+action:              ipv4_forward
+runtime data:        00:01:0a:00:03:05	00:02
+Entry has been added with handle 1
+RuntimeCmd: Adding entry to lpm match table l3_forward.ipv4_lpm
+match key:           LPM-0a:00:03:03/24
+action:              ipv4_forward
+runtime data:        00:01:0a:00:03:05	00:02
+Invalid table operation (DUPLICATE_ENTRY)
+RuntimeCmd: RuntimeCmd: Adding entry to exact match table process_int_source_sink.tb_set_source
+match key:           EXACT-00:01
+action:              int_set_source
+runtime data:        
+Entry has been added with handle 0
+RuntimeCmd: Adding entry to ternary match table process_int_source.tb_int_source
+match key:           TERNARY-0a:00:01:01 &&& ff:ff:ff:ff	TERNARY-0a:00:03:03 &&& ff:ff:ff:ff	TERNARY-00:00 &&& 00:00	TERNARY-00:00 &&& 00:00
+action:              int_source
+runtime data:        0f	0f
+Entry has been added with handle 0
+RuntimeCmd: Setting default action of process_int_transit.tb_int_insert
+action:              init_metadata
+runtime data:        00:00:00:01
+RuntimeCmd: Adding entry to exact match table process_int_report.tb_generate_report
+match key:           
+action:              do_report_encapsulation
+runtime data:        00:01:0a:00:03:07	00:01:0a:00:03:0a	0a:00:00:01	0a:00:00:02	04:d2
+Entry has been added with handle 0
+RuntimeCmd: Setting default action of process_int_header.tb_int_header
+action:              add_int_header
+runtime data:        0f	0f
+RuntimeCmd: 

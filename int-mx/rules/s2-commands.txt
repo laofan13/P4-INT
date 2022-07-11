@@ -1,0 +1,9 @@
+//set up ipv4_lpm table
+table_add l3_forward.ipv4_lpm ipv4_forward 10.0.1.1/32 => 00:01:0a:00:03:04 1
+table_add l3_forward.ipv4_lpm ipv4_forward 10.0.3.2/24 => 00:01:0a:00:03:07 2
+table_add l3_forward.ipv4_lpm ipv4_forward 10.0.3.3/24 => 00:01:0a:00:03:07 2
+
+
+mirroring_add 500 3
+table_set_default process_int_transit.tb_int_insert init_metadata 2
+table_add process_int_report.tb_generate_report do_report_encapsulation => 00:01:0a:00:03:07 00:01:0a:00:03:0A 10.0.0.1 10.0.0.2 1234

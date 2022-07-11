@@ -1,0 +1,1244 @@
+Calling target program-options parser
+[02:00:51.516] [bmv2] [D] [thread 28070] Set default default entry for table 'MyIngress.l3_forward.ipv4_lpm': MyIngress.l3_forward.drop - 
+[02:00:51.517] [bmv2] [D] [thread 28070] Set default default entry for table 'MyIngress.process_int_source_sink.tb_set_source': NoAction - 
+[02:00:51.517] [bmv2] [D] [thread 28070] Set default default entry for table 'MyIngress.process_int_source_sink.tb_set_sink': NoAction - 
+[02:00:51.517] [bmv2] [D] [thread 28070] Set default default entry for table 'MyIngress.process_int_source.tb_int_source': NoAction - 
+[02:00:51.517] [bmv2] [D] [thread 28070] Set default default entry for table 'tbl_int_mx39': int_mx39 - 
+[02:00:51.527] [bmv2] [D] [thread 28070] Set default default entry for table 'MyEgress.process_int_sink.tb_int_sink': MyEgress.process_int_sink.int_sink - 
+[02:00:51.527] [bmv2] [D] [thread 28070] Set default default entry for table 'MyEgress.process_int_header.tb_int_header': NoAction - 
+[02:00:51.527] [bmv2] [D] [thread 28070] Set default default entry for table 'tbl_act': act - 
+[02:00:51.528] [bmv2] [D] [thread 28070] Set default default entry for table 'MyEgress.process_int_transit.tb_int_insert': NoAction - 
+[02:00:51.528] [bmv2] [D] [thread 28070] Set default default entry for table 'tbl_int_transit394': int_transit394 - 
+[02:00:51.528] [bmv2] [D] [thread 28070] Set default default entry for table 'MyEgress.process_int_transit.tb_int_inst_0003': NoAction - 
+[02:00:51.528] [bmv2] [D] [thread 28070] Entry 0 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.528] [bmv2] [D] [thread 28070] Dumping entry 0
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     00
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i0 - 
+
+[02:00:51.528] [bmv2] [D] [thread 28070] Entry 1 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.528] [bmv2] [D] [thread 28070] Dumping entry 1
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     01
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i1 - 
+
+[02:00:51.529] [bmv2] [D] [thread 28070] Entry 2 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.530] [bmv2] [D] [thread 28070] Dumping entry 2
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     02
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i2 - 
+
+[02:00:51.530] [bmv2] [D] [thread 28070] Entry 3 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.530] [bmv2] [D] [thread 28070] Dumping entry 3
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     03
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i3 - 
+
+[02:00:51.530] [bmv2] [D] [thread 28070] Entry 4 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.530] [bmv2] [D] [thread 28070] Dumping entry 4
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     04
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i4 - 
+
+[02:00:51.530] [bmv2] [D] [thread 28070] Entry 5 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.530] [bmv2] [D] [thread 28070] Dumping entry 5
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     05
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i5 - 
+
+[02:00:51.532] [bmv2] [D] [thread 28070] Entry 6 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.532] [bmv2] [D] [thread 28070] Dumping entry 6
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     06
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i6 - 
+
+[02:00:51.532] [bmv2] [D] [thread 28070] Entry 7 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.532] [bmv2] [D] [thread 28070] Dumping entry 7
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     07
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i7 - 
+
+[02:00:51.532] [bmv2] [D] [thread 28070] Entry 8 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.532] [bmv2] [D] [thread 28070] Dumping entry 8
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     08
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i8 - 
+
+[02:00:51.532] [bmv2] [D] [thread 28070] Entry 9 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.532] [bmv2] [D] [thread 28070] Dumping entry 9
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     09
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i9 - 
+
+[02:00:51.532] [bmv2] [D] [thread 28070] Entry 10 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.532] [bmv2] [D] [thread 28070] Dumping entry 10
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0a
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i10 - 
+
+[02:00:51.532] [bmv2] [D] [thread 28070] Entry 11 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.532] [bmv2] [D] [thread 28070] Dumping entry 11
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0b
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i11 - 
+
+[02:00:51.532] [bmv2] [D] [thread 28070] Entry 12 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.533] [bmv2] [D] [thread 28070] Dumping entry 12
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0c
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i12 - 
+
+[02:00:51.533] [bmv2] [D] [thread 28070] Entry 13 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.533] [bmv2] [D] [thread 28070] Dumping entry 13
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0d
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i13 - 
+
+[02:00:51.533] [bmv2] [D] [thread 28070] Entry 14 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.533] [bmv2] [D] [thread 28070] Dumping entry 14
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0e
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i14 - 
+
+[02:00:51.533] [bmv2] [D] [thread 28070] Entry 15 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:00:51.533] [bmv2] [D] [thread 28070] Dumping entry 15
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0f
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i15 - 
+
+[02:00:51.533] [bmv2] [D] [thread 28070] Set default default entry for table 'MyEgress.process_int_transit.tb_int_inst_0407': NoAction - 
+[02:00:51.533] [bmv2] [D] [thread 28070] Entry 0 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.533] [bmv2] [D] [thread 28070] Dumping entry 0
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     00
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i0 - 
+
+[02:00:51.533] [bmv2] [D] [thread 28070] Entry 1 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.533] [bmv2] [D] [thread 28070] Dumping entry 1
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     01
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i1 - 
+
+[02:00:51.533] [bmv2] [D] [thread 28070] Entry 2 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.533] [bmv2] [D] [thread 28070] Dumping entry 2
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     02
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i2 - 
+
+[02:00:51.533] [bmv2] [D] [thread 28070] Entry 3 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.533] [bmv2] [D] [thread 28070] Dumping entry 3
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     03
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i3 - 
+
+[02:00:51.534] [bmv2] [D] [thread 28070] Entry 4 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.534] [bmv2] [D] [thread 28070] Dumping entry 4
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     04
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i4 - 
+
+[02:00:51.534] [bmv2] [D] [thread 28070] Entry 5 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.534] [bmv2] [D] [thread 28070] Dumping entry 5
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     05
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i5 - 
+
+[02:00:51.534] [bmv2] [D] [thread 28070] Entry 6 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.534] [bmv2] [D] [thread 28070] Dumping entry 6
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     06
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i6 - 
+
+[02:00:51.534] [bmv2] [D] [thread 28070] Entry 7 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.534] [bmv2] [D] [thread 28070] Dumping entry 7
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     07
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i7 - 
+
+[02:00:51.534] [bmv2] [D] [thread 28070] Entry 8 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.534] [bmv2] [D] [thread 28070] Dumping entry 8
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     08
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i8 - 
+
+[02:00:51.534] [bmv2] [D] [thread 28070] Entry 9 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.534] [bmv2] [D] [thread 28070] Dumping entry 9
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     09
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i9 - 
+
+[02:00:51.538] [bmv2] [D] [thread 28070] Entry 10 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.538] [bmv2] [D] [thread 28070] Dumping entry 10
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0a
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i10 - 
+
+[02:00:51.538] [bmv2] [D] [thread 28070] Entry 11 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.538] [bmv2] [D] [thread 28070] Dumping entry 11
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0b
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i11 - 
+
+[02:00:51.538] [bmv2] [D] [thread 28070] Entry 12 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.538] [bmv2] [D] [thread 28070] Dumping entry 12
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0c
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i12 - 
+
+[02:00:51.538] [bmv2] [D] [thread 28070] Entry 13 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.538] [bmv2] [D] [thread 28070] Dumping entry 13
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0d
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i13 - 
+
+[02:00:51.538] [bmv2] [D] [thread 28070] Entry 14 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.538] [bmv2] [D] [thread 28070] Dumping entry 14
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0e
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i14 - 
+
+[02:00:51.539] [bmv2] [D] [thread 28070] Entry 15 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:00:51.539] [bmv2] [D] [thread 28070] Dumping entry 15
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0f
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i15 - 
+
+[02:00:51.539] [bmv2] [D] [thread 28070] Set default default entry for table 'tbl_int_transit401': int_transit401 - 
+[02:00:51.539] [bmv2] [D] [thread 28070] Set default default entry for table 'tbl_int_transit404': int_transit404 - 
+[02:00:51.539] [bmv2] [D] [thread 28070] Set default default entry for table 'tbl_int_transit407': int_transit407 - 
+[02:00:51.540] [bmv2] [D] [thread 28070] Set default default entry for table 'MyEgress.process_int_report.tb_generate_report': NoAction - 
+Adding interface s3-eth1 as port 1
+[02:00:51.548] [bmv2] [D] [thread 28070] Adding interface s3-eth1 as port 1
+Adding interface s3-eth2 as port 2
+[02:00:51.591] [bmv2] [D] [thread 28070] Adding interface s3-eth2 as port 2
+Adding interface s3-eth3 as port 3
+[02:00:51.616] [bmv2] [D] [thread 28070] Adding interface s3-eth3 as port 3
+Adding interface s3-cpu-eth0 as port 4
+[02:00:51.644] [bmv2] [D] [thread 28070] Adding interface s3-cpu-eth0 as port 4
+[02:00:51.688] [bmv2] [I] [thread 28070] Starting Thrift server on port 9092
+[02:00:51.689] [bmv2] [I] [thread 28070] Thrift server was started
+[02:00:51.712] [bmv2] [D] [thread 28076] [0.0] [cxt 0] Processing packet received on port 1
+[02:00:51.712] [bmv2] [D] [thread 28076] [0.0] [cxt 0] Parser 'parser': start
+[02:00:51.712] [bmv2] [D] [thread 28076] [0.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.712] [bmv2] [D] [thread 28076] [0.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.712] [bmv2] [D] [thread 28076] [0.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.712] [bmv2] [T] [thread 28076] [0.0] [cxt 0] Bytes parsed: 14
+[02:00:51.712] [bmv2] [D] [thread 28076] [0.0] [cxt 0] Parser 'parser': end
+[02:00:51.712] [bmv2] [D] [thread 28076] [0.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.712] [bmv2] [T] [thread 28076] [0.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.712] [bmv2] [D] [thread 28076] [0.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.712] [bmv2] [D] [thread 28076] [0.0] [cxt 0] Egress port is 0
+[02:00:51.712] [bmv2] [D] [thread 28076] [1.0] [cxt 0] Processing packet received on port 2
+[02:00:51.712] [bmv2] [D] [thread 28076] [1.0] [cxt 0] Parser 'parser': start
+[02:00:51.712] [bmv2] [D] [thread 28076] [1.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.712] [bmv2] [D] [thread 28076] [1.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.712] [bmv2] [D] [thread 28076] [1.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.712] [bmv2] [T] [thread 28076] [1.0] [cxt 0] Bytes parsed: 14
+[02:00:51.713] [bmv2] [D] [thread 28076] [1.0] [cxt 0] Parser 'parser': end
+[02:00:51.713] [bmv2] [D] [thread 28076] [1.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.713] [bmv2] [T] [thread 28076] [1.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.713] [bmv2] [D] [thread 28076] [1.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.713] [bmv2] [D] [thread 28076] [1.0] [cxt 0] Egress port is 0
+[02:00:51.713] [bmv2] [D] [thread 28076] [2.0] [cxt 0] Processing packet received on port 3
+[02:00:51.713] [bmv2] [D] [thread 28076] [2.0] [cxt 0] Parser 'parser': start
+[02:00:51.713] [bmv2] [D] [thread 28076] [2.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.713] [bmv2] [D] [thread 28076] [2.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.713] [bmv2] [D] [thread 28076] [2.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.713] [bmv2] [T] [thread 28076] [2.0] [cxt 0] Bytes parsed: 14
+[02:00:51.713] [bmv2] [D] [thread 28076] [2.0] [cxt 0] Parser 'parser': end
+[02:00:51.713] [bmv2] [D] [thread 28076] [2.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.713] [bmv2] [T] [thread 28076] [2.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.713] [bmv2] [D] [thread 28076] [2.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.713] [bmv2] [D] [thread 28076] [2.0] [cxt 0] Egress port is 0
+[02:00:51.713] [bmv2] [D] [thread 28077] [0.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.714] [bmv2] [T] [thread 28077] [0.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.714] [bmv2] [T] [thread 28077] [0.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.714] [bmv2] [D] [thread 28077] [0.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.714] [bmv2] [D] [thread 28077] [0.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.714] [bmv2] [T] [thread 28077] [0.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.714] [bmv2] [T] [thread 28077] [0.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.714] [bmv2] [D] [thread 28077] [0.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.714] [bmv2] [D] [thread 28077] [0.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.714] [bmv2] [D] [thread 28081] [0.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[02:00:51.714] [bmv2] [D] [thread 28077] [1.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.714] [bmv2] [T] [thread 28077] [1.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.714] [bmv2] [T] [thread 28077] [1.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.714] [bmv2] [D] [thread 28077] [1.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.714] [bmv2] [D] [thread 28077] [1.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.714] [bmv2] [T] [thread 28077] [1.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.715] [bmv2] [T] [thread 28077] [1.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.715] [bmv2] [D] [thread 28077] [1.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.715] [bmv2] [D] [thread 28077] [1.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.715] [bmv2] [D] [thread 28081] [1.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[02:00:51.715] [bmv2] [D] [thread 28077] [2.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.715] [bmv2] [T] [thread 28077] [2.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.715] [bmv2] [T] [thread 28077] [2.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.715] [bmv2] [D] [thread 28077] [2.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.715] [bmv2] [D] [thread 28077] [2.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.715] [bmv2] [T] [thread 28077] [2.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.715] [bmv2] [T] [thread 28077] [2.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.715] [bmv2] [D] [thread 28077] [2.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.716] [bmv2] [D] [thread 28077] [2.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.716] [bmv2] [D] [thread 28081] [2.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[02:00:51.723] [bmv2] [D] [thread 28076] [3.0] [cxt 0] Processing packet received on port 3
+[02:00:51.723] [bmv2] [D] [thread 28076] [3.0] [cxt 0] Parser 'parser': start
+[02:00:51.724] [bmv2] [D] [thread 28076] [3.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.724] [bmv2] [D] [thread 28076] [3.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.724] [bmv2] [D] [thread 28076] [3.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.724] [bmv2] [T] [thread 28076] [3.0] [cxt 0] Bytes parsed: 14
+[02:00:51.724] [bmv2] [D] [thread 28076] [3.0] [cxt 0] Parser 'parser': end
+[02:00:51.724] [bmv2] [D] [thread 28076] [3.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.724] [bmv2] [T] [thread 28076] [3.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.724] [bmv2] [D] [thread 28076] [3.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.724] [bmv2] [D] [thread 28076] [3.0] [cxt 0] Egress port is 0
+[02:00:51.725] [bmv2] [D] [thread 28077] [3.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.725] [bmv2] [T] [thread 28077] [3.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.725] [bmv2] [T] [thread 28077] [3.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.725] [bmv2] [D] [thread 28077] [3.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.725] [bmv2] [D] [thread 28077] [3.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.725] [bmv2] [T] [thread 28077] [3.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.725] [bmv2] [T] [thread 28077] [3.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.725] [bmv2] [D] [thread 28077] [3.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.725] [bmv2] [D] [thread 28077] [3.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.725] [bmv2] [D] [thread 28081] [3.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[02:00:51.762] [bmv2] [D] [thread 28076] [4.0] [cxt 0] Processing packet received on port 3
+[02:00:51.762] [bmv2] [D] [thread 28076] [4.0] [cxt 0] Parser 'parser': start
+[02:00:51.762] [bmv2] [D] [thread 28076] [4.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.762] [bmv2] [D] [thread 28076] [4.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.762] [bmv2] [D] [thread 28076] [4.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.762] [bmv2] [T] [thread 28076] [4.0] [cxt 0] Bytes parsed: 14
+[02:00:51.762] [bmv2] [D] [thread 28076] [4.0] [cxt 0] Parser 'parser': end
+[02:00:51.762] [bmv2] [D] [thread 28076] [4.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.762] [bmv2] [T] [thread 28076] [4.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.762] [bmv2] [D] [thread 28076] [4.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.762] [bmv2] [D] [thread 28076] [4.0] [cxt 0] Egress port is 0
+[02:00:51.762] [bmv2] [D] [thread 28077] [4.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.762] [bmv2] [T] [thread 28077] [4.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.762] [bmv2] [T] [thread 28077] [4.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.762] [bmv2] [D] [thread 28077] [4.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.763] [bmv2] [D] [thread 28077] [4.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.763] [bmv2] [T] [thread 28077] [4.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.763] [bmv2] [T] [thread 28077] [4.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.763] [bmv2] [D] [thread 28077] [4.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.763] [bmv2] [D] [thread 28077] [4.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.763] [bmv2] [D] [thread 28081] [4.0] [cxt 0] Transmitting packet of size 110 out of port 0
+[02:00:51.806] [bmv2] [D] [thread 28076] [5.0] [cxt 0] Processing packet received on port 4
+[02:00:51.807] [bmv2] [D] [thread 28076] [5.0] [cxt 0] Parser 'parser': start
+[02:00:51.807] [bmv2] [D] [thread 28076] [5.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.807] [bmv2] [D] [thread 28076] [5.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.807] [bmv2] [D] [thread 28076] [5.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.807] [bmv2] [T] [thread 28076] [5.0] [cxt 0] Bytes parsed: 14
+[02:00:51.807] [bmv2] [D] [thread 28076] [5.0] [cxt 0] Parser 'parser': end
+[02:00:51.807] [bmv2] [D] [thread 28076] [5.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.807] [bmv2] [T] [thread 28076] [5.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.807] [bmv2] [D] [thread 28076] [5.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.807] [bmv2] [D] [thread 28076] [5.0] [cxt 0] Egress port is 0
+[02:00:51.807] [bmv2] [D] [thread 28077] [5.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.807] [bmv2] [T] [thread 28077] [5.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.807] [bmv2] [T] [thread 28077] [5.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.808] [bmv2] [D] [thread 28077] [5.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.808] [bmv2] [D] [thread 28077] [5.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.808] [bmv2] [T] [thread 28077] [5.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.808] [bmv2] [T] [thread 28077] [5.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.808] [bmv2] [D] [thread 28077] [5.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.808] [bmv2] [D] [thread 28077] [5.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.808] [bmv2] [D] [thread 28081] [5.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[02:00:51.847] [bmv2] [D] [thread 28076] [6.0] [cxt 0] Processing packet received on port 4
+[02:00:51.847] [bmv2] [D] [thread 28076] [6.0] [cxt 0] Parser 'parser': start
+[02:00:51.847] [bmv2] [D] [thread 28076] [6.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.847] [bmv2] [D] [thread 28076] [6.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.847] [bmv2] [D] [thread 28076] [6.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.847] [bmv2] [T] [thread 28076] [6.0] [cxt 0] Bytes parsed: 14
+[02:00:51.847] [bmv2] [D] [thread 28076] [6.0] [cxt 0] Parser 'parser': end
+[02:00:51.848] [bmv2] [D] [thread 28076] [6.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.848] [bmv2] [T] [thread 28076] [6.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.848] [bmv2] [D] [thread 28076] [6.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.848] [bmv2] [D] [thread 28076] [6.0] [cxt 0] Egress port is 0
+[02:00:51.848] [bmv2] [D] [thread 28076] [7.0] [cxt 0] Processing packet received on port 4
+[02:00:51.848] [bmv2] [D] [thread 28076] [7.0] [cxt 0] Parser 'parser': start
+[02:00:51.848] [bmv2] [D] [thread 28076] [7.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.848] [bmv2] [D] [thread 28077] [6.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.848] [bmv2] [T] [thread 28077] [6.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.848] [bmv2] [T] [thread 28077] [6.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.848] [bmv2] [D] [thread 28077] [6.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.848] [bmv2] [D] [thread 28077] [6.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.848] [bmv2] [T] [thread 28077] [6.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.848] [bmv2] [T] [thread 28077] [6.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.848] [bmv2] [D] [thread 28077] [6.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.848] [bmv2] [D] [thread 28077] [6.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.849] [bmv2] [D] [thread 28081] [6.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[02:00:51.848] [bmv2] [D] [thread 28076] [7.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.855] [bmv2] [D] [thread 28076] [7.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.855] [bmv2] [T] [thread 28076] [7.0] [cxt 0] Bytes parsed: 14
+[02:00:51.855] [bmv2] [D] [thread 28076] [7.0] [cxt 0] Parser 'parser': end
+[02:00:51.855] [bmv2] [D] [thread 28076] [7.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.855] [bmv2] [T] [thread 28076] [7.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.855] [bmv2] [D] [thread 28076] [7.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.855] [bmv2] [D] [thread 28076] [7.0] [cxt 0] Egress port is 0
+[02:00:51.856] [bmv2] [D] [thread 28076] [8.0] [cxt 0] Processing packet received on port 1
+[02:00:51.856] [bmv2] [D] [thread 28076] [8.0] [cxt 0] Parser 'parser': start
+[02:00:51.856] [bmv2] [D] [thread 28076] [8.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.856] [bmv2] [D] [thread 28076] [8.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.856] [bmv2] [D] [thread 28076] [8.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.856] [bmv2] [T] [thread 28076] [8.0] [cxt 0] Bytes parsed: 14
+[02:00:51.856] [bmv2] [D] [thread 28076] [8.0] [cxt 0] Parser 'parser': end
+[02:00:51.856] [bmv2] [D] [thread 28076] [8.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.856] [bmv2] [T] [thread 28076] [8.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.856] [bmv2] [D] [thread 28077] [7.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.856] [bmv2] [T] [thread 28077] [7.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.856] [bmv2] [T] [thread 28077] [7.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.856] [bmv2] [D] [thread 28077] [7.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.857] [bmv2] [D] [thread 28077] [7.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.857] [bmv2] [T] [thread 28077] [7.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.857] [bmv2] [T] [thread 28077] [7.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.857] [bmv2] [D] [thread 28077] [7.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.857] [bmv2] [D] [thread 28077] [7.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.857] [bmv2] [D] [thread 28081] [7.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[02:00:51.856] [bmv2] [D] [thread 28076] [8.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.864] [bmv2] [D] [thread 28076] [8.0] [cxt 0] Egress port is 0
+[02:00:51.864] [bmv2] [D] [thread 28076] [9.0] [cxt 0] Processing packet received on port 4
+[02:00:51.864] [bmv2] [D] [thread 28076] [9.0] [cxt 0] Parser 'parser': start
+[02:00:51.864] [bmv2] [D] [thread 28076] [9.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.864] [bmv2] [D] [thread 28076] [9.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.864] [bmv2] [D] [thread 28076] [9.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.864] [bmv2] [T] [thread 28076] [9.0] [cxt 0] Bytes parsed: 14
+[02:00:51.864] [bmv2] [D] [thread 28076] [9.0] [cxt 0] Parser 'parser': end
+[02:00:51.864] [bmv2] [D] [thread 28076] [9.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.864] [bmv2] [T] [thread 28076] [9.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.864] [bmv2] [D] [thread 28076] [9.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.864] [bmv2] [D] [thread 28076] [9.0] [cxt 0] Egress port is 0
+[02:00:51.864] [bmv2] [D] [thread 28076] [10.0] [cxt 0] Processing packet received on port 3
+[02:00:51.865] [bmv2] [D] [thread 28076] [10.0] [cxt 0] Parser 'parser': start
+[02:00:51.865] [bmv2] [D] [thread 28076] [10.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.865] [bmv2] [D] [thread 28076] [10.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.865] [bmv2] [D] [thread 28076] [10.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.865] [bmv2] [T] [thread 28076] [10.0] [cxt 0] Bytes parsed: 14
+[02:00:51.865] [bmv2] [D] [thread 28076] [10.0] [cxt 0] Parser 'parser': end
+[02:00:51.865] [bmv2] [D] [thread 28076] [10.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.865] [bmv2] [T] [thread 28076] [10.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.865] [bmv2] [D] [thread 28076] [10.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.865] [bmv2] [D] [thread 28076] [10.0] [cxt 0] Egress port is 0
+[02:00:51.865] [bmv2] [D] [thread 28077] [8.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.865] [bmv2] [T] [thread 28077] [8.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.865] [bmv2] [T] [thread 28077] [8.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.866] [bmv2] [D] [thread 28077] [8.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.866] [bmv2] [D] [thread 28077] [8.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.866] [bmv2] [T] [thread 28077] [8.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.866] [bmv2] [T] [thread 28077] [8.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.866] [bmv2] [D] [thread 28077] [8.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.866] [bmv2] [D] [thread 28077] [8.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.866] [bmv2] [D] [thread 28081] [8.0] [cxt 0] Transmitting packet of size 200 out of port 0
+[02:00:51.866] [bmv2] [D] [thread 28077] [9.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.866] [bmv2] [T] [thread 28077] [9.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.866] [bmv2] [T] [thread 28077] [9.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.866] [bmv2] [D] [thread 28077] [9.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.866] [bmv2] [D] [thread 28077] [9.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.866] [bmv2] [T] [thread 28077] [9.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.866] [bmv2] [T] [thread 28077] [9.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.867] [bmv2] [D] [thread 28077] [9.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.867] [bmv2] [D] [thread 28077] [9.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.867] [bmv2] [D] [thread 28081] [9.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[02:00:51.867] [bmv2] [D] [thread 28077] [10.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.867] [bmv2] [T] [thread 28077] [10.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.867] [bmv2] [T] [thread 28077] [10.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.867] [bmv2] [D] [thread 28077] [10.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.867] [bmv2] [D] [thread 28077] [10.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.867] [bmv2] [T] [thread 28077] [10.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.867] [bmv2] [T] [thread 28077] [10.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.868] [bmv2] [D] [thread 28077] [10.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.868] [bmv2] [D] [thread 28077] [10.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.868] [bmv2] [D] [thread 28081] [10.0] [cxt 0] Transmitting packet of size 200 out of port 0
+[02:00:51.868] [bmv2] [D] [thread 28076] [11.0] [cxt 0] Processing packet received on port 2
+[02:00:51.868] [bmv2] [D] [thread 28076] [11.0] [cxt 0] Parser 'parser': start
+[02:00:51.868] [bmv2] [D] [thread 28076] [11.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.868] [bmv2] [D] [thread 28076] [11.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.868] [bmv2] [D] [thread 28076] [11.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.868] [bmv2] [T] [thread 28076] [11.0] [cxt 0] Bytes parsed: 14
+[02:00:51.868] [bmv2] [D] [thread 28076] [11.0] [cxt 0] Parser 'parser': end
+[02:00:51.868] [bmv2] [D] [thread 28076] [11.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.868] [bmv2] [T] [thread 28076] [11.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.869] [bmv2] [D] [thread 28076] [11.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.869] [bmv2] [D] [thread 28076] [11.0] [cxt 0] Egress port is 0
+[02:00:51.869] [bmv2] [D] [thread 28077] [11.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.869] [bmv2] [T] [thread 28077] [11.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.869] [bmv2] [T] [thread 28077] [11.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.869] [bmv2] [D] [thread 28077] [11.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.869] [bmv2] [D] [thread 28077] [11.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.869] [bmv2] [T] [thread 28077] [11.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.869] [bmv2] [T] [thread 28077] [11.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.869] [bmv2] [D] [thread 28077] [11.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.869] [bmv2] [D] [thread 28077] [11.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.869] [bmv2] [D] [thread 28081] [11.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[02:00:51.884] [bmv2] [D] [thread 28076] [12.0] [cxt 0] Processing packet received on port 4
+[02:00:51.884] [bmv2] [D] [thread 28076] [12.0] [cxt 0] Parser 'parser': start
+[02:00:51.884] [bmv2] [D] [thread 28076] [12.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.884] [bmv2] [D] [thread 28076] [12.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.884] [bmv2] [D] [thread 28076] [12.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.884] [bmv2] [T] [thread 28076] [12.0] [cxt 0] Bytes parsed: 14
+[02:00:51.884] [bmv2] [D] [thread 28076] [12.0] [cxt 0] Parser 'parser': end
+[02:00:51.884] [bmv2] [D] [thread 28076] [12.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.885] [bmv2] [T] [thread 28076] [12.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.885] [bmv2] [D] [thread 28076] [12.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.885] [bmv2] [D] [thread 28076] [12.0] [cxt 0] Egress port is 0
+[02:00:51.885] [bmv2] [D] [thread 28077] [12.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.885] [bmv2] [T] [thread 28077] [12.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.885] [bmv2] [T] [thread 28077] [12.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.885] [bmv2] [D] [thread 28077] [12.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.885] [bmv2] [D] [thread 28077] [12.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.885] [bmv2] [T] [thread 28077] [12.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.885] [bmv2] [T] [thread 28077] [12.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.885] [bmv2] [D] [thread 28077] [12.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.885] [bmv2] [D] [thread 28077] [12.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.886] [bmv2] [D] [thread 28081] [12.0] [cxt 0] Transmitting packet of size 110 out of port 0
+[02:00:51.923] [bmv2] [D] [thread 28076] [13.0] [cxt 0] Processing packet received on port 4
+[02:00:51.923] [bmv2] [D] [thread 28076] [13.0] [cxt 0] Parser 'parser': start
+[02:00:51.923] [bmv2] [D] [thread 28076] [13.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.923] [bmv2] [D] [thread 28076] [13.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.923] [bmv2] [D] [thread 28076] [13.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.923] [bmv2] [T] [thread 28076] [13.0] [cxt 0] Bytes parsed: 14
+[02:00:51.924] [bmv2] [D] [thread 28076] [13.0] [cxt 0] Parser 'parser': end
+[02:00:51.924] [bmv2] [D] [thread 28076] [13.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.924] [bmv2] [T] [thread 28076] [13.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.924] [bmv2] [D] [thread 28076] [13.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.924] [bmv2] [D] [thread 28076] [13.0] [cxt 0] Egress port is 0
+[02:00:51.926] [bmv2] [D] [thread 28077] [13.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.927] [bmv2] [T] [thread 28077] [13.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.927] [bmv2] [T] [thread 28077] [13.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.927] [bmv2] [D] [thread 28077] [13.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.927] [bmv2] [D] [thread 28077] [13.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.927] [bmv2] [T] [thread 28077] [13.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.927] [bmv2] [T] [thread 28077] [13.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.928] [bmv2] [D] [thread 28077] [13.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.928] [bmv2] [D] [thread 28077] [13.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.928] [bmv2] [D] [thread 28081] [13.0] [cxt 0] Transmitting packet of size 107 out of port 0
+[02:00:51.932] [bmv2] [D] [thread 28076] [14.0] [cxt 0] Processing packet received on port 1
+[02:00:51.932] [bmv2] [D] [thread 28076] [14.0] [cxt 0] Parser 'parser': start
+[02:00:51.932] [bmv2] [D] [thread 28076] [14.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.932] [bmv2] [D] [thread 28076] [14.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.932] [bmv2] [D] [thread 28076] [14.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.932] [bmv2] [T] [thread 28076] [14.0] [cxt 0] Bytes parsed: 14
+[02:00:51.932] [bmv2] [D] [thread 28076] [14.0] [cxt 0] Parser 'parser': end
+[02:00:51.932] [bmv2] [D] [thread 28076] [14.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.932] [bmv2] [T] [thread 28076] [14.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.932] [bmv2] [D] [thread 28076] [14.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.932] [bmv2] [D] [thread 28076] [14.0] [cxt 0] Egress port is 0
+[02:00:51.932] [bmv2] [D] [thread 28077] [14.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.933] [bmv2] [T] [thread 28077] [14.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.933] [bmv2] [T] [thread 28077] [14.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.933] [bmv2] [D] [thread 28077] [14.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.933] [bmv2] [D] [thread 28077] [14.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.933] [bmv2] [T] [thread 28077] [14.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.933] [bmv2] [T] [thread 28077] [14.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.933] [bmv2] [D] [thread 28077] [14.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.933] [bmv2] [D] [thread 28077] [14.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.933] [bmv2] [D] [thread 28081] [14.0] [cxt 0] Transmitting packet of size 107 out of port 0
+[02:00:51.944] [bmv2] [D] [thread 28076] [15.0] [cxt 0] Processing packet received on port 3
+[02:00:51.944] [bmv2] [D] [thread 28076] [15.0] [cxt 0] Parser 'parser': start
+[02:00:51.944] [bmv2] [D] [thread 28076] [15.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.944] [bmv2] [D] [thread 28076] [15.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.944] [bmv2] [D] [thread 28076] [15.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.944] [bmv2] [T] [thread 28076] [15.0] [cxt 0] Bytes parsed: 14
+[02:00:51.944] [bmv2] [D] [thread 28076] [15.0] [cxt 0] Parser 'parser': end
+[02:00:51.944] [bmv2] [D] [thread 28076] [15.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.945] [bmv2] [T] [thread 28076] [15.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.945] [bmv2] [D] [thread 28076] [15.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.945] [bmv2] [D] [thread 28076] [15.0] [cxt 0] Egress port is 0
+[02:00:51.945] [bmv2] [D] [thread 28077] [15.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.945] [bmv2] [T] [thread 28077] [15.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.945] [bmv2] [T] [thread 28077] [15.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.945] [bmv2] [D] [thread 28077] [15.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.945] [bmv2] [D] [thread 28077] [15.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.945] [bmv2] [T] [thread 28077] [15.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.945] [bmv2] [T] [thread 28077] [15.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.945] [bmv2] [D] [thread 28077] [15.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.945] [bmv2] [D] [thread 28077] [15.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.945] [bmv2] [D] [thread 28081] [15.0] [cxt 0] Transmitting packet of size 107 out of port 0
+[02:00:51.957] [bmv2] [D] [thread 28076] [16.0] [cxt 0] Processing packet received on port 3
+[02:00:51.957] [bmv2] [D] [thread 28076] [16.0] [cxt 0] Parser 'parser': start
+[02:00:51.958] [bmv2] [D] [thread 28076] [16.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:51.958] [bmv2] [D] [thread 28076] [16.0] [cxt 0] Extracting header 'ethernet'
+[02:00:51.958] [bmv2] [D] [thread 28076] [16.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:51.958] [bmv2] [T] [thread 28076] [16.0] [cxt 0] Bytes parsed: 14
+[02:00:51.958] [bmv2] [D] [thread 28076] [16.0] [cxt 0] Parser 'parser': end
+[02:00:51.958] [bmv2] [D] [thread 28076] [16.0] [cxt 0] Pipeline 'ingress': start
+[02:00:51.958] [bmv2] [T] [thread 28076] [16.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:51.958] [bmv2] [D] [thread 28076] [16.0] [cxt 0] Pipeline 'ingress': end
+[02:00:51.958] [bmv2] [D] [thread 28076] [16.0] [cxt 0] Egress port is 0
+[02:00:51.958] [bmv2] [D] [thread 28077] [16.0] [cxt 0] Pipeline 'egress': start
+[02:00:51.958] [bmv2] [T] [thread 28077] [16.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:51.958] [bmv2] [T] [thread 28077] [16.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:51.958] [bmv2] [D] [thread 28077] [16.0] [cxt 0] Pipeline 'egress': end
+[02:00:51.958] [bmv2] [D] [thread 28077] [16.0] [cxt 0] Deparser 'deparser': start
+[02:00:51.958] [bmv2] [T] [thread 28077] [16.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:51.958] [bmv2] [T] [thread 28077] [16.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:51.958] [bmv2] [D] [thread 28077] [16.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:51.959] [bmv2] [D] [thread 28077] [16.0] [cxt 0] Deparser 'deparser': end
+[02:00:51.959] [bmv2] [D] [thread 28081] [16.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[02:00:52.048] [bmv2] [D] [thread 28076] [17.0] [cxt 0] Processing packet received on port 4
+[02:00:52.048] [bmv2] [D] [thread 28076] [17.0] [cxt 0] Parser 'parser': start
+[02:00:52.048] [bmv2] [D] [thread 28076] [17.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.048] [bmv2] [D] [thread 28076] [17.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.048] [bmv2] [D] [thread 28076] [17.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.049] [bmv2] [T] [thread 28076] [17.0] [cxt 0] Bytes parsed: 14
+[02:00:52.049] [bmv2] [D] [thread 28076] [17.0] [cxt 0] Parser 'parser': end
+[02:00:52.049] [bmv2] [D] [thread 28076] [17.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.049] [bmv2] [T] [thread 28076] [17.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.049] [bmv2] [D] [thread 28076] [17.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.049] [bmv2] [D] [thread 28076] [17.0] [cxt 0] Egress port is 0
+[02:00:52.049] [bmv2] [D] [thread 28077] [17.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.049] [bmv2] [T] [thread 28077] [17.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.049] [bmv2] [T] [thread 28077] [17.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.049] [bmv2] [D] [thread 28077] [17.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.049] [bmv2] [D] [thread 28077] [17.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.049] [bmv2] [T] [thread 28077] [17.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.049] [bmv2] [T] [thread 28077] [17.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.049] [bmv2] [D] [thread 28077] [17.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.049] [bmv2] [D] [thread 28077] [17.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.049] [bmv2] [D] [thread 28081] [17.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[02:00:52.056] [bmv2] [D] [thread 28076] [18.0] [cxt 0] Processing packet received on port 2
+[02:00:52.056] [bmv2] [D] [thread 28076] [18.0] [cxt 0] Parser 'parser': start
+[02:00:52.056] [bmv2] [D] [thread 28076] [18.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.056] [bmv2] [D] [thread 28076] [18.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.056] [bmv2] [D] [thread 28076] [18.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.056] [bmv2] [T] [thread 28076] [18.0] [cxt 0] Bytes parsed: 14
+[02:00:52.056] [bmv2] [D] [thread 28076] [18.0] [cxt 0] Parser 'parser': end
+[02:00:52.056] [bmv2] [D] [thread 28076] [18.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.056] [bmv2] [T] [thread 28076] [18.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.056] [bmv2] [D] [thread 28076] [18.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.056] [bmv2] [D] [thread 28076] [18.0] [cxt 0] Egress port is 0
+[02:00:52.057] [bmv2] [D] [thread 28077] [18.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.057] [bmv2] [T] [thread 28077] [18.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.057] [bmv2] [T] [thread 28077] [18.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.057] [bmv2] [D] [thread 28077] [18.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.057] [bmv2] [D] [thread 28077] [18.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.057] [bmv2] [T] [thread 28077] [18.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.057] [bmv2] [T] [thread 28077] [18.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.057] [bmv2] [D] [thread 28077] [18.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.057] [bmv2] [D] [thread 28077] [18.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.059] [bmv2] [D] [thread 28081] [18.0] [cxt 0] Transmitting packet of size 200 out of port 0
+[02:00:52.061] [bmv2] [D] [thread 28076] [19.0] [cxt 0] Processing packet received on port 4
+[02:00:52.062] [bmv2] [D] [thread 28076] [19.0] [cxt 0] Parser 'parser': start
+[02:00:52.062] [bmv2] [D] [thread 28076] [19.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.062] [bmv2] [D] [thread 28076] [19.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.062] [bmv2] [D] [thread 28076] [19.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.067] [bmv2] [T] [thread 28076] [19.0] [cxt 0] Bytes parsed: 14
+[02:00:52.068] [bmv2] [D] [thread 28076] [19.0] [cxt 0] Parser 'parser': end
+[02:00:52.068] [bmv2] [D] [thread 28076] [19.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.068] [bmv2] [T] [thread 28076] [19.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.068] [bmv2] [D] [thread 28076] [19.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.068] [bmv2] [D] [thread 28076] [19.0] [cxt 0] Egress port is 0
+[02:00:52.069] [bmv2] [D] [thread 28077] [19.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.071] [bmv2] [T] [thread 28077] [19.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.071] [bmv2] [T] [thread 28077] [19.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.071] [bmv2] [D] [thread 28077] [19.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.071] [bmv2] [D] [thread 28077] [19.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.071] [bmv2] [T] [thread 28077] [19.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.071] [bmv2] [T] [thread 28077] [19.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.071] [bmv2] [D] [thread 28077] [19.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.071] [bmv2] [D] [thread 28077] [19.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.081] [bmv2] [D] [thread 28081] [19.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[02:00:52.121] [bmv2] [D] [thread 28076] [20.0] [cxt 0] Processing packet received on port 4
+[02:00:52.121] [bmv2] [D] [thread 28076] [20.0] [cxt 0] Parser 'parser': start
+[02:00:52.121] [bmv2] [D] [thread 28076] [20.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.121] [bmv2] [D] [thread 28076] [20.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.121] [bmv2] [D] [thread 28076] [20.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.121] [bmv2] [T] [thread 28076] [20.0] [cxt 0] Bytes parsed: 14
+[02:00:52.121] [bmv2] [D] [thread 28076] [20.0] [cxt 0] Parser 'parser': end
+[02:00:52.121] [bmv2] [D] [thread 28076] [20.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.121] [bmv2] [T] [thread 28076] [20.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.122] [bmv2] [D] [thread 28076] [20.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.122] [bmv2] [D] [thread 28076] [20.0] [cxt 0] Egress port is 0
+[02:00:52.122] [bmv2] [D] [thread 28077] [20.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.122] [bmv2] [T] [thread 28077] [20.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.122] [bmv2] [T] [thread 28077] [20.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.122] [bmv2] [D] [thread 28077] [20.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.122] [bmv2] [D] [thread 28077] [20.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.122] [bmv2] [T] [thread 28077] [20.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.122] [bmv2] [T] [thread 28077] [20.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.122] [bmv2] [D] [thread 28077] [20.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.122] [bmv2] [D] [thread 28077] [20.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.123] [bmv2] [D] [thread 28081] [20.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[02:00:52.161] [bmv2] [D] [thread 28076] [21.0] [cxt 0] Processing packet received on port 2
+[02:00:52.161] [bmv2] [D] [thread 28076] [21.0] [cxt 0] Parser 'parser': start
+[02:00:52.161] [bmv2] [D] [thread 28076] [21.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.161] [bmv2] [D] [thread 28076] [21.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.161] [bmv2] [D] [thread 28076] [21.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.161] [bmv2] [T] [thread 28076] [21.0] [cxt 0] Bytes parsed: 14
+[02:00:52.161] [bmv2] [D] [thread 28076] [21.0] [cxt 0] Parser 'parser': end
+[02:00:52.161] [bmv2] [D] [thread 28076] [21.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.161] [bmv2] [T] [thread 28076] [21.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.161] [bmv2] [D] [thread 28076] [21.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.162] [bmv2] [D] [thread 28076] [21.0] [cxt 0] Egress port is 0
+[02:00:52.162] [bmv2] [D] [thread 28077] [21.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.162] [bmv2] [T] [thread 28077] [21.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.162] [bmv2] [T] [thread 28077] [21.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.162] [bmv2] [D] [thread 28077] [21.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.162] [bmv2] [D] [thread 28077] [21.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.162] [bmv2] [T] [thread 28077] [21.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.162] [bmv2] [T] [thread 28077] [21.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.162] [bmv2] [D] [thread 28077] [21.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.162] [bmv2] [D] [thread 28077] [21.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.165] [bmv2] [D] [thread 28081] [21.0] [cxt 0] Transmitting packet of size 107 out of port 0
+[02:00:52.165] [bmv2] [D] [thread 28076] [22.0] [cxt 0] Processing packet received on port 3
+[02:00:52.165] [bmv2] [D] [thread 28076] [22.0] [cxt 0] Parser 'parser': start
+[02:00:52.165] [bmv2] [D] [thread 28076] [22.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.165] [bmv2] [D] [thread 28076] [22.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.165] [bmv2] [D] [thread 28076] [22.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.165] [bmv2] [T] [thread 28076] [22.0] [cxt 0] Bytes parsed: 14
+[02:00:52.165] [bmv2] [D] [thread 28076] [22.0] [cxt 0] Parser 'parser': end
+[02:00:52.165] [bmv2] [D] [thread 28076] [22.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.165] [bmv2] [T] [thread 28076] [22.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.166] [bmv2] [D] [thread 28076] [22.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.166] [bmv2] [D] [thread 28076] [22.0] [cxt 0] Egress port is 0
+[02:00:52.166] [bmv2] [D] [thread 28077] [22.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.166] [bmv2] [T] [thread 28077] [22.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.166] [bmv2] [T] [thread 28077] [22.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.166] [bmv2] [D] [thread 28077] [22.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.166] [bmv2] [D] [thread 28077] [22.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.166] [bmv2] [T] [thread 28077] [22.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.166] [bmv2] [T] [thread 28077] [22.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.166] [bmv2] [D] [thread 28077] [22.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.166] [bmv2] [D] [thread 28077] [22.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.166] [bmv2] [D] [thread 28081] [22.0] [cxt 0] Transmitting packet of size 200 out of port 0
+[02:00:52.259] [bmv2] [D] [thread 28076] [23.0] [cxt 0] Processing packet received on port 3
+[02:00:52.259] [bmv2] [D] [thread 28076] [23.0] [cxt 0] Parser 'parser': start
+[02:00:52.260] [bmv2] [D] [thread 28076] [23.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.260] [bmv2] [D] [thread 28076] [23.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.260] [bmv2] [D] [thread 28076] [23.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.260] [bmv2] [T] [thread 28076] [23.0] [cxt 0] Bytes parsed: 14
+[02:00:52.260] [bmv2] [D] [thread 28076] [23.0] [cxt 0] Parser 'parser': end
+[02:00:52.260] [bmv2] [D] [thread 28076] [23.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.260] [bmv2] [T] [thread 28076] [23.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.260] [bmv2] [D] [thread 28076] [23.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.260] [bmv2] [D] [thread 28076] [23.0] [cxt 0] Egress port is 0
+[02:00:52.260] [bmv2] [D] [thread 28077] [23.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.260] [bmv2] [T] [thread 28077] [23.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.260] [bmv2] [T] [thread 28077] [23.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.260] [bmv2] [D] [thread 28077] [23.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.260] [bmv2] [D] [thread 28077] [23.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.260] [bmv2] [T] [thread 28077] [23.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.261] [bmv2] [T] [thread 28077] [23.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.263] [bmv2] [D] [thread 28077] [23.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.263] [bmv2] [D] [thread 28077] [23.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.263] [bmv2] [D] [thread 28081] [23.0] [cxt 0] Transmitting packet of size 107 out of port 0
+[02:00:52.263] [bmv2] [D] [thread 28076] [24.0] [cxt 0] Processing packet received on port 4
+[02:00:52.263] [bmv2] [D] [thread 28076] [24.0] [cxt 0] Parser 'parser': start
+[02:00:52.264] [bmv2] [D] [thread 28076] [24.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.264] [bmv2] [D] [thread 28076] [24.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.264] [bmv2] [D] [thread 28076] [24.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.264] [bmv2] [T] [thread 28076] [24.0] [cxt 0] Bytes parsed: 14
+[02:00:52.264] [bmv2] [D] [thread 28076] [24.0] [cxt 0] Parser 'parser': end
+[02:00:52.264] [bmv2] [D] [thread 28076] [24.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.264] [bmv2] [T] [thread 28076] [24.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.264] [bmv2] [D] [thread 28076] [24.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.264] [bmv2] [D] [thread 28076] [24.0] [cxt 0] Egress port is 0
+[02:00:52.264] [bmv2] [D] [thread 28077] [24.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.264] [bmv2] [T] [thread 28077] [24.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.264] [bmv2] [T] [thread 28077] [24.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.264] [bmv2] [D] [thread 28077] [24.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.264] [bmv2] [D] [thread 28077] [24.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.264] [bmv2] [T] [thread 28077] [24.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.264] [bmv2] [T] [thread 28077] [24.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.265] [bmv2] [D] [thread 28077] [24.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.265] [bmv2] [D] [thread 28077] [24.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.265] [bmv2] [D] [thread 28081] [24.0] [cxt 0] Transmitting packet of size 200 out of port 0
+[02:00:52.360] [bmv2] [D] [thread 28076] [25.0] [cxt 0] Processing packet received on port 4
+[02:00:52.360] [bmv2] [D] [thread 28076] [25.0] [cxt 0] Parser 'parser': start
+[02:00:52.360] [bmv2] [D] [thread 28076] [25.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.360] [bmv2] [D] [thread 28076] [25.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.360] [bmv2] [D] [thread 28076] [25.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.360] [bmv2] [T] [thread 28076] [25.0] [cxt 0] Bytes parsed: 14
+[02:00:52.360] [bmv2] [D] [thread 28076] [25.0] [cxt 0] Parser 'parser': end
+[02:00:52.360] [bmv2] [D] [thread 28076] [25.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.360] [bmv2] [T] [thread 28076] [25.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.360] [bmv2] [D] [thread 28076] [25.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.360] [bmv2] [D] [thread 28076] [25.0] [cxt 0] Egress port is 0
+[02:00:52.361] [bmv2] [D] [thread 28077] [25.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.361] [bmv2] [T] [thread 28077] [25.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.361] [bmv2] [T] [thread 28077] [25.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.361] [bmv2] [D] [thread 28077] [25.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.361] [bmv2] [D] [thread 28077] [25.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.361] [bmv2] [T] [thread 28077] [25.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.361] [bmv2] [T] [thread 28077] [25.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.361] [bmv2] [D] [thread 28077] [25.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.361] [bmv2] [D] [thread 28077] [25.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.361] [bmv2] [D] [thread 28081] [25.0] [cxt 0] Transmitting packet of size 107 out of port 0
+[02:00:52.382] [bmv2] [D] [thread 28076] [26.0] [cxt 0] Processing packet received on port 4
+[02:00:52.382] [bmv2] [D] [thread 28076] [26.0] [cxt 0] Parser 'parser': start
+[02:00:52.382] [bmv2] [D] [thread 28076] [26.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.382] [bmv2] [D] [thread 28076] [26.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.382] [bmv2] [D] [thread 28076] [26.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.382] [bmv2] [T] [thread 28076] [26.0] [cxt 0] Bytes parsed: 14
+[02:00:52.382] [bmv2] [D] [thread 28076] [26.0] [cxt 0] Parser 'parser': end
+[02:00:52.382] [bmv2] [D] [thread 28076] [26.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.382] [bmv2] [T] [thread 28076] [26.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.382] [bmv2] [D] [thread 28076] [26.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.383] [bmv2] [D] [thread 28076] [26.0] [cxt 0] Egress port is 0
+[02:00:52.383] [bmv2] [D] [thread 28077] [26.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.383] [bmv2] [T] [thread 28077] [26.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.383] [bmv2] [T] [thread 28077] [26.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.383] [bmv2] [D] [thread 28077] [26.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.383] [bmv2] [D] [thread 28077] [26.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.383] [bmv2] [T] [thread 28077] [26.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.384] [bmv2] [T] [thread 28077] [26.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.384] [bmv2] [D] [thread 28077] [26.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.384] [bmv2] [D] [thread 28077] [26.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.384] [bmv2] [D] [thread 28081] [26.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[02:00:52.558] [bmv2] [D] [thread 28076] [27.0] [cxt 0] Processing packet received on port 4
+[02:00:52.558] [bmv2] [D] [thread 28076] [27.0] [cxt 0] Parser 'parser': start
+[02:00:52.558] [bmv2] [D] [thread 28076] [27.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.558] [bmv2] [D] [thread 28076] [27.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.558] [bmv2] [D] [thread 28076] [27.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.558] [bmv2] [T] [thread 28076] [27.0] [cxt 0] Bytes parsed: 14
+[02:00:52.558] [bmv2] [D] [thread 28076] [27.0] [cxt 0] Parser 'parser': end
+[02:00:52.558] [bmv2] [D] [thread 28076] [27.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.558] [bmv2] [T] [thread 28076] [27.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.558] [bmv2] [D] [thread 28076] [27.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.558] [bmv2] [D] [thread 28076] [27.0] [cxt 0] Egress port is 0
+[02:00:52.558] [bmv2] [D] [thread 28077] [27.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.558] [bmv2] [T] [thread 28077] [27.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.558] [bmv2] [T] [thread 28077] [27.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.558] [bmv2] [D] [thread 28077] [27.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.558] [bmv2] [D] [thread 28077] [27.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.559] [bmv2] [T] [thread 28077] [27.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.559] [bmv2] [T] [thread 28077] [27.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.559] [bmv2] [D] [thread 28077] [27.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.559] [bmv2] [D] [thread 28077] [27.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.559] [bmv2] [D] [thread 28081] [27.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[02:00:52.630] [bmv2] [D] [thread 28076] [28.0] [cxt 0] Processing packet received on port 4
+[02:00:52.630] [bmv2] [D] [thread 28076] [28.0] [cxt 0] Parser 'parser': start
+[02:00:52.630] [bmv2] [D] [thread 28076] [28.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.631] [bmv2] [D] [thread 28076] [28.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.631] [bmv2] [D] [thread 28076] [28.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.631] [bmv2] [T] [thread 28076] [28.0] [cxt 0] Bytes parsed: 14
+[02:00:52.632] [bmv2] [D] [thread 28076] [28.0] [cxt 0] Parser 'parser': end
+[02:00:52.632] [bmv2] [D] [thread 28076] [28.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.632] [bmv2] [T] [thread 28076] [28.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.632] [bmv2] [D] [thread 28076] [28.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.632] [bmv2] [D] [thread 28076] [28.0] [cxt 0] Egress port is 0
+[02:00:52.632] [bmv2] [D] [thread 28077] [28.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.633] [bmv2] [T] [thread 28077] [28.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.633] [bmv2] [T] [thread 28077] [28.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.633] [bmv2] [D] [thread 28077] [28.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.633] [bmv2] [D] [thread 28077] [28.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.633] [bmv2] [T] [thread 28077] [28.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.633] [bmv2] [T] [thread 28077] [28.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.633] [bmv2] [D] [thread 28077] [28.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.633] [bmv2] [D] [thread 28077] [28.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.633] [bmv2] [D] [thread 28081] [28.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[02:00:52.659] [bmv2] [D] [thread 28076] [29.0] [cxt 0] Processing packet received on port 4
+[02:00:52.660] [bmv2] [D] [thread 28076] [29.0] [cxt 0] Parser 'parser': start
+[02:00:52.660] [bmv2] [D] [thread 28076] [29.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:00:52.660] [bmv2] [D] [thread 28076] [29.0] [cxt 0] Extracting header 'ethernet'
+[02:00:52.660] [bmv2] [D] [thread 28076] [29.0] [cxt 0] Parser state 'start': key is 86dd
+[02:00:52.660] [bmv2] [T] [thread 28076] [29.0] [cxt 0] Bytes parsed: 14
+[02:00:52.661] [bmv2] [D] [thread 28076] [29.0] [cxt 0] Parser 'parser': end
+[02:00:52.661] [bmv2] [D] [thread 28076] [29.0] [cxt 0] Pipeline 'ingress': start
+[02:00:52.661] [bmv2] [T] [thread 28076] [29.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[02:00:52.661] [bmv2] [D] [thread 28076] [29.0] [cxt 0] Pipeline 'ingress': end
+[02:00:52.661] [bmv2] [D] [thread 28076] [29.0] [cxt 0] Egress port is 0
+[02:00:52.661] [bmv2] [D] [thread 28077] [29.0] [cxt 0] Pipeline 'egress': start
+[02:00:52.662] [bmv2] [T] [thread 28077] [29.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:00:52.663] [bmv2] [T] [thread 28077] [29.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:00:52.663] [bmv2] [D] [thread 28077] [29.0] [cxt 0] Pipeline 'egress': end
+[02:00:52.663] [bmv2] [D] [thread 28077] [29.0] [cxt 0] Deparser 'deparser': start
+[02:00:52.663] [bmv2] [T] [thread 28077] [29.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[02:00:52.663] [bmv2] [T] [thread 28077] [29.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:00:52.663] [bmv2] [D] [thread 28077] [29.0] [cxt 0] Deparsing header 'ethernet'
+[02:00:52.663] [bmv2] [D] [thread 28077] [29.0] [cxt 0] Deparser 'deparser': end
+[02:00:52.664] [bmv2] [D] [thread 28081] [29.0] [cxt 0] Transmitting packet of size 110 out of port 0
+[02:00:54.197] [bmv2] [T] [thread 28195] bm_get_config
+[02:00:54.239] [bmv2] [T] [thread 28195] bm_table_add_entry
+[02:00:54.240] [bmv2] [D] [thread 28195] Entry 0 added to table 'MyIngress.l3_forward.ipv4_lpm'
+[02:00:54.240] [bmv2] [D] [thread 28195] Dumping entry 0
+Match key:
+* hdr.ipv4.dst_addr   : LPM       0a000101/32
+Action entry: MyIngress.l3_forward.ipv4_forward - 10a000306,3,
+
+[02:00:54.241] [bmv2] [T] [thread 28195] bm_table_add_entry
+[02:00:54.241] [bmv2] [D] [thread 28195] Entry 1 added to table 'MyIngress.l3_forward.ipv4_lpm'
+[02:00:54.241] [bmv2] [D] [thread 28195] Dumping entry 1
+Match key:
+* hdr.ipv4.dst_addr   : LPM       0a000302/32
+Action entry: MyIngress.l3_forward.ipv4_forward - a000302,1,
+
+[02:00:54.242] [bmv2] [T] [thread 28195] bm_table_add_entry
+[02:00:54.242] [bmv2] [D] [thread 28195] Entry 2 added to table 'MyIngress.l3_forward.ipv4_lpm'
+[02:00:54.242] [bmv2] [D] [thread 28195] Dumping entry 2
+Match key:
+* hdr.ipv4.dst_addr   : LPM       0a000303/32
+Action entry: MyIngress.l3_forward.ipv4_forward - a000303,2,
+
+[02:00:54.243] [bmv2] [T] [thread 28195] mirroring_sesssion_add
+[02:00:54.245] [bmv2] [T] [thread 28195] bm_table_add_entry
+[02:00:54.245] [bmv2] [D] [thread 28195] Entry 0 added to table 'MyIngress.process_int_source_sink.tb_set_sink'
+[02:00:54.245] [bmv2] [D] [thread 28195] Dumping entry 0
+Match key:
+* standard_metadata.egress_port: EXACT     0002
+Action entry: MyIngress.process_int_source_sink.int_set_sink - 
+
+[02:00:54.246] [bmv2] [T] [thread 28195] bm_table_add_entry
+[02:00:54.246] [bmv2] [D] [thread 28195] Entry 0 added to table 'MyEgress.process_int_report.tb_generate_report'
+[02:00:54.246] [bmv2] [D] [thread 28195] Dumping entry 0
+Match key:
+Action entry: MyEgress.process_int_report.do_report_encapsulation - 10a000307,10a00030a,a000001,a000002,4d2,
+
+[02:00:54.248] [bmv2] [T] [thread 28195] bm_set_default_action
+[02:00:54.248] [bmv2] [D] [thread 28195] Set default entry for table 'MyEgress.process_int_transit.tb_int_insert': MyEgress.process_int_transit.init_metadata - 3,
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Processing packet received on port 3
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser 'parser': start
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Extracting header 'ethernet'
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser state 'start': key is 0800
+[02:01:35.950] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Bytes parsed: 14
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser 'parser' entering state 'parse_ipv4'
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Extracting header 'ipv4'
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser state 'parse_ipv4': key is 11
+[02:01:35.950] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Bytes parsed: 34
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser 'parser' entering state 'parse_udp'
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Extracting header 'udp'
+[02:01:35.950] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser set: setting field 'scalars.userMetadata._l4_src_port0' from field 'udp.src_port' (64057)
+[02:01:35.951] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser set: setting field 'scalars.userMetadata._l4_dst_port1' from field 'udp.dst_port' (8080)
+[02:01:35.951] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser state 'parse_udp': key is 17
+[02:01:35.951] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Bytes parsed: 42
+[02:01:35.951] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser 'parser' entering state 'parse_intl4_shim'
+[02:01:35.951] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Extracting header 'intl4_shim'
+[02:01:35.951] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser set: setting field 'scalars.userMetadata._int_meta_intl4_shim_len8' from field 'intl4_shim.len' (3)
+[02:01:35.951] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Extracting header 'int_header'
+[02:01:35.951] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser state 'parse_intl4_shim' has no switch, going to default next state
+[02:01:35.951] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Bytes parsed: 58
+[02:01:35.951] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Parser 'parser': end
+[02:01:35.951] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Pipeline 'ingress': start
+[02:01:35.951] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is true
+[02:01:35.951] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(34) Condition "hdr.ipv4.isValid()" (node_3) is true
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Applying table 'MyIngress.l3_forward.ipv4_lpm'
+[02:01:35.952] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Looking up key:
+* hdr.ipv4.dst_addr   : 0a000303
+
+[02:01:35.952] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Table 'MyIngress.l3_forward.ipv4_lpm': hit with handle 2
+[02:01:35.952] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Dumping entry 2
+Match key:
+* hdr.ipv4.dst_addr   : LPM       0a000303/32
+Action entry: MyIngress.l3_forward.ipv4_forward - a000303,2,
+
+[02:01:35.952] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Action entry is MyIngress.l3_forward.ipv4_forward - a000303,2,
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Action MyIngress.l3_forward.ipv4_forward
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(13) Primitive standard_metadata.egress_spec = port
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(14) Primitive standard_metadata.egress_port = port
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(15) Primitive hdr.ethernet.src_addr = hdr.ethernet.dst_addr
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(16) Primitive hdr.ethernet.dst_addr = dstAddr
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(17) Primitive hdr.ipv4.ttl = hdr.ipv4.ttl - 1
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(28) Condition "hdr.tcp.isValid() ||hdr.udp.isValid()" (node_5) is true
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Applying table 'MyIngress.process_int_source_sink.tb_set_source'
+[02:01:35.952] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Looking up key:
+* standard_metadata.ingress_port: 0003
+
+[02:01:35.952] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Table 'MyIngress.process_int_source_sink.tb_set_source': miss
+[02:01:35.952] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Action entry is NoAction - 
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Action NoAction
+[02:01:35.952] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Applying table 'MyIngress.process_int_source_sink.tb_set_sink'
+[02:01:35.952] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Looking up key:
+* standard_metadata.egress_port: 0002
+
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Table 'MyIngress.process_int_source_sink.tb_set_sink': hit with handle 0
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Dumping entry 0
+Match key:
+* standard_metadata.egress_port: EXACT     0002
+Action entry: MyIngress.process_int_source_sink.int_set_sink - 
+
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Action entry is MyIngress.process_int_source_sink.int_set_sink - 
+[02:01:35.953] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Action MyIngress.process_int_source_sink.int_set_sink
+[02:01:35.953] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_source.p4(12) Primitive = true; ...
+[02:01:35.953] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(32) Condition "local_metadata" (node_8) is false
+[02:01:35.953] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(36) Condition "hdr.int_header.isValid()" (node_10) is true
+[02:01:35.953] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Applying table 'tbl_int_mx39'
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Looking up key:
+
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Table 'tbl_int_mx39': miss
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Action entry is int_mx39 - 
+[02:01:35.953] [bmv2] [T] [thread 28076] [30.0] [cxt 0] Action int_mx39
+[02:01:35.953] [bmv2] [T] [thread 28076] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(39) Primitive clone(CloneType.I2E, REPORT_MIRROR_SESSION_ID)
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Pipeline 'ingress': end
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Cloning packet at ingress
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser 'parser': start
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser 'parser' entering state 'start'
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Extracting header 'ethernet'
+[02:01:35.953] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser state 'start': key is 0800
+[02:01:35.954] [bmv2] [T] [thread 28076] [30.1] [cxt 0] Bytes parsed: 14
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser 'parser' entering state 'parse_ipv4'
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Extracting header 'ipv4'
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser state 'parse_ipv4': key is 11
+[02:01:35.954] [bmv2] [T] [thread 28076] [30.1] [cxt 0] Bytes parsed: 34
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser 'parser' entering state 'parse_udp'
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Extracting header 'udp'
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser set: setting field 'scalars.userMetadata._l4_src_port0' from field 'udp.src_port' (64057)
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser set: setting field 'scalars.userMetadata._l4_dst_port1' from field 'udp.dst_port' (8080)
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser state 'parse_udp': key is 17
+[02:01:35.954] [bmv2] [T] [thread 28076] [30.1] [cxt 0] Bytes parsed: 42
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser 'parser' entering state 'parse_intl4_shim'
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Extracting header 'intl4_shim'
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser set: setting field 'scalars.userMetadata._int_meta_intl4_shim_len8' from field 'intl4_shim.len' (3)
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Extracting header 'int_header'
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser state 'parse_intl4_shim' has no switch, going to default next state
+[02:01:35.954] [bmv2] [T] [thread 28076] [30.1] [cxt 0] Bytes parsed: 58
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.1] [cxt 0] Parser 'parser': end
+[02:01:35.954] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Cloning packet to egress port 4
+[02:01:35.955] [bmv2] [D] [thread 28076] [30.0] [cxt 0] Egress port is 2
+[02:01:35.958] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Pipeline 'egress': start
+[02:01:35.958] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:01:35.958] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is true
+[02:01:35.958] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Pipeline 'egress': start
+[02:01:35.959] [bmv2] [T] [thread 28079] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is true
+[02:01:35.959] [bmv2] [T] [thread 28079] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(70) Condition "local_metadata" (node_15) is true
+[02:01:35.959] [bmv2] [T] [thread 28079] [30.0] [cxt 0] Applying table 'MyEgress.process_int_sink.tb_int_sink'
+[02:01:35.958] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(77) Condition "hdr.int_header.isValid()" (node_18) is true
+[02:01:35.959] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Looking up key:
+
+[02:01:35.959] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Applying table 'tbl_act'
+[02:01:35.959] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Table 'MyEgress.process_int_sink.tb_int_sink': miss
+[02:01:35.959] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Action entry is MyEgress.process_int_sink.int_sink - 
+[02:01:35.959] [bmv2] [T] [thread 28079] [30.0] [cxt 0] Action MyEgress.process_int_sink.int_sink
+[02:01:35.959] [bmv2] [T] [thread 28079] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(10) Primitive hdr.ipv4.dscp = hdr.intl4_shim.udp_ip_dscp
+[02:01:35.959] [bmv2] [T] [thread 28079] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(12) Primitive hdr.ipv4.len = hdr.ipv4.len - INT_TOTAL_HEADER_SIZE
+[02:01:35.959] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Looking up key:
+
+[02:01:35.960] [bmv2] [T] [thread 28079] [30.0] [cxt 0] Primitive (no source info)
+[02:01:35.960] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Table 'tbl_act': miss
+[02:01:35.960] [bmv2] [T] [thread 28079] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(17) Primitive hdr.intl4_shim.setInvalid()
+[02:01:35.960] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Action entry is act - 
+[02:01:35.960] [bmv2] [T] [thread 28079] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(18) Primitive hdr.int_header.setInvalid()
+[02:01:35.960] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Action act
+[02:01:35.960] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Primitive (no source info)
+[02:01:35.960] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Applying table 'MyEgress.process_int_transit.tb_int_insert'
+[02:01:35.960] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Looking up key:
+
+[02:01:35.960] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Table 'MyEgress.process_int_transit.tb_int_insert': miss
+[02:01:35.960] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Action entry is MyEgress.process_int_transit.init_metadata - 3,
+[02:01:35.960] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Action MyEgress.process_int_transit.init_metadata
+[02:01:35.960] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(7) Primitive = true; ...
+[02:01:35.960] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(8) Primitive = switch_id; ...
+[02:01:35.960] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(80) Condition "local_metadata" (node_22) is true
+[02:01:35.960] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Condition "node_24" (node_24) is false
+[02:01:35.960] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Applying table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[02:01:35.960] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Looking up key:
+* hdr.int_header.instruction_mask_0003: 0f
+
+[02:01:35.961] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Table 'MyEgress.process_int_transit.tb_int_inst_0003': hit with handle 15
+[02:01:35.961] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Dumping entry 15
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0f
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i15 - 
+
+[02:01:35.961] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Action entry is MyEgress.process_int_transit.int_set_header_0003_i15 - 
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Action MyEgress.process_int_transit.int_set_header_0003_i15
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(29) Primitive hdr.int_q_occupancy.setValid()
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(30) Primitive hdr.int_q_occupancy.q_id =0
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(32) Primitive hdr.int_q_occupancy.q_occupancy = (bit<24>) standard_metadata.deq_qdepth
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(23) Primitive hdr.int_hop_latency.setValid()
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(24) Primitive hdr.int_hop_latency.hop_latency = (bit<32>) standard_metadata.egress_global_timestamp - (bit<32>) standard_metadata.ingress_global_timestamp
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(17) Primitive hdr.int_level1_port_ids.setValid()
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(18) Primitive hdr.int_level1_port_ids.ingress_port_id = (bit<16>) standard_metadata.ingress_port
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(19) Primitive hdr.int_level1_port_ids.egress_port_id = (bit<16>) standard_metadata.egress_port
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(12) Primitive hdr.int_switch_id.setValid()
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(13) Primitive hdr.int_switch_id.switch_id = local_metadata.int_meta.switch_id; ...
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(81) Primitive = local_metadata.int_meta.new_words + 4; ...
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(82) Primitive = local_metadata.int_meta.new_bytes + 16; ...
+[02:01:35.961] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Applying table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[02:01:35.962] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Looking up key:
+* hdr.int_header.instruction_mask_0407: 0f
+
+[02:01:35.962] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Table 'MyEgress.process_int_transit.tb_int_inst_0407': hit with handle 15
+[02:01:35.962] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Dumping entry 15
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0f
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i15 - 
+
+[02:01:35.962] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Action entry is MyEgress.process_int_transit.int_set_header_0407_i15 - 
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Action MyEgress.process_int_transit.int_set_header_0407_i15
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(54) Primitive hdr.int_egress_tx_util.setValid()
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(55) Primitive hdr.int_egress_tx_util.egress_port_tx_util = ...
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(46) Primitive hdr.int_level2_port_ids.setValid()
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(48) Primitive hdr.int_level2_port_ids.ingress_port_id = (bit<32>) standard_metadata.ingress_port
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(49) Primitive hdr.int_level2_port_ids.egress_port_id = (bit<32>) standard_metadata.egress_port
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(41) Primitive hdr.int_egress_tstamp.setValid()
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(42) Primitive hdr.int_egress_tstamp.egress_tstamp = (bit<64>)standard_metadata.egress_global_timestamp
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(36) Primitive hdr.int_ingress_tstamp.setValid()
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(37) Primitive hdr.int_ingress_tstamp.ingress_tstamp = (bit<64>)standard_metadata.ingress_global_timestamp
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(96) Primitive = local_metadata.int_meta.new_words + 7; ...
+[02:01:35.962] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(97) Primitive = local_metadata.int_meta.new_bytes + 28; ...
+[02:01:35.963] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(400) Condition "hdr.ipv4.isValid()" (node_27) is true
+[02:01:35.963] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Applying table 'tbl_int_transit401'
+[02:01:35.963] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Looking up key:
+
+[02:01:35.963] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Table 'tbl_int_transit401': miss
+[02:01:35.963] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Action entry is int_transit401 - 
+[02:01:35.963] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Action int_transit401
+[02:01:35.963] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(401) Primitive hdr.ipv4.len = hdr.ipv4.len + local_metadata.int_meta.new_bytes
+[02:01:35.963] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(403) Condition "hdr.udp.isValid()" (node_29) is true
+[02:01:35.963] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Applying table 'tbl_int_transit404'
+[02:01:35.963] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Looking up key:
+
+[02:01:35.963] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Table 'tbl_int_transit404': miss
+[02:01:35.960] [bmv2] [T] [thread 28079] [30.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:01:35.963] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Pipeline 'egress': end
+[02:01:35.964] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Deparser 'deparser': start
+[02:01:35.964] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Updating checksum 'cksum'
+[02:01:35.964] [bmv2] [T] [thread 28079] [30.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:01:35.964] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Deparsing header 'ethernet'
+[02:01:35.964] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Deparsing header 'ipv4'
+[02:01:35.964] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Deparsing header 'udp'
+[02:01:35.964] [bmv2] [D] [thread 28079] [30.0] [cxt 0] Deparser 'deparser': end
+[02:01:35.964] [bmv2] [D] [thread 28081] [30.0] [cxt 0] Transmitting packet of size 56 out of port 2
+[02:01:35.963] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Action entry is int_transit404 - 
+[02:01:35.980] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Action int_transit404
+[02:01:35.980] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(404) Primitive hdr.udp.length_ = hdr.udp.length_ + local_metadata.int_meta.new_bytes
+[02:01:35.980] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(406) Condition "hdr.intl4_shim.isValid()" (node_31) is true
+[02:01:35.980] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Applying table 'tbl_int_transit407'
+[02:01:35.980] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Looking up key:
+
+[02:01:35.980] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Table 'tbl_int_transit407': miss
+[02:01:35.980] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Action entry is int_transit407 - 
+[02:01:35.980] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Action int_transit407
+[02:01:35.980] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_transit.p4(407) Primitive hdr.intl4_shim.len = hdr.intl4_shim.len + local_metadata.int_meta.new_words
+[02:01:35.980] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Applying table 'MyEgress.process_int_report.tb_generate_report'
+[02:01:35.981] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Looking up key:
+
+[02:01:35.981] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Table 'MyEgress.process_int_report.tb_generate_report': hit with handle 0
+[02:01:35.981] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Dumping entry 0
+Match key:
+Action entry: MyEgress.process_int_report.do_report_encapsulation - 10a000307,10a00030a,a000001,a000002,4d2,
+
+[02:01:35.981] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Action entry is MyEgress.process_int_report.do_report_encapsulation - 10a000307,10a00030a,a000001,a000002,4d2,
+[02:01:35.981] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Action MyEgress.process_int_report.do_report_encapsulation
+[02:01:35.981] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(51) Primitive hdr.report_ethernet.setValid()
+[02:01:35.981] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(52) Primitive hdr.report_ethernet.dst_addr = mon_mac
+[02:01:35.981] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(53) Primitive hdr.report_ethernet.src_addr = src_mac
+[02:01:35.981] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(54) Primitive hdr.report_ethernet.ether_type = 0x0800
+[02:01:35.981] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(57) Primitive hdr.report_ipv4.setValid()
+[02:01:35.981] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(58) Primitive hdr.report_ipv4.version = 4w4
+[02:01:35.981] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(59) Primitive hdr.report_ipv4.ihl = 4w5
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(60) Primitive hdr.report_ipv4.dscp = 6w0
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(61) Primitive hdr.report_ipv4.ecn = 2w0
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(64) Primitive hdr.report_ipv4.len = (bit<16>) IPV4_MIN_HEAD_LEN + (bit<16>) UDP_HEADER_LEN + (bit<16>) REPORT_GROUP_HEADER_LEN + (bit<16>) REPORT_INDIVIDUAL_HEADER_LEN + ...
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(68) Primitive hdr.report_ipv4.identification = 0
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(69) Primitive hdr.report_ipv4.flags = 0
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(70) Primitive hdr.report_ipv4.frag_offset = 0
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(3) Primitive 64; ...
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(72) Primitive hdr.report_ipv4.protocol = 8w17
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(73) Primitive hdr.report_ipv4.src_addr = src_ip
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(74) Primitive hdr.report_ipv4.dst_addr = mon_ip
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(77) Primitive hdr.report_udp.setValid()
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(78) Primitive hdr.report_udp.src_port = 1234
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(79) Primitive hdr.report_udp.dst_port = mon_port
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(80) Primitive hdr.report_udp.length_ = (bit<16>) UDP_HEADER_LEN + (bit<16>) REPORT_GROUP_HEADER_LEN + (bit<16>) REPORT_INDIVIDUAL_HEADER_LEN + ...
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(84) Primitive hdr.report_group_header.setValid()
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(85) Primitive hdr.report_group_header.ver = 1
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/defines.p4(51) Primitive 1; ...
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(87) Primitive seq_number.read(hdr.report_group_header.seq_no, 0)
+[02:01:35.982] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Read register 'MyEgress.process_int_report.seq_number' at index 0 read value 0
+[02:01:35.983] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(43) Primitive seq_number.read(tmp, 0)
+[02:01:35.983] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Read register 'MyEgress.process_int_report.seq_number' at index 0 read value 0
+[02:01:35.983] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(44) Primitive tmp = tmp + 1
+[02:01:35.983] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(45) Primitive seq_number.write(0, tmp)
+[02:01:35.983] [bmv2] [T] [thread 28077] [30.1] [cxt 0] Wrote register 'MyEgress.process_int_report.seq_number' at index 0 with value 1
+[02:01:36.004] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(89) Primitive hdr.report_group_header.node_id = local_metadata.int_meta.switch_id; ...
+[02:01:36.004] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(93) Primitive hdr.report_individual_header.setValid()
+[02:01:36.004] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Processing packet received on port 2
+[02:01:36.004] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Parser 'parser': start
+[02:01:36.004] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Parser 'parser' entering state 'start'
+[02:01:36.004] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Extracting header 'ethernet'
+[02:01:36.004] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Parser state 'start': key is 0800
+[02:01:36.004] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(94) Primitive hdr.report_individual_header.rep_type = 1
+[02:01:36.004] [bmv2] [T] [thread 28076] [31.0] [cxt 0] Bytes parsed: 14
+[02:01:36.004] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Parser 'parser' entering state 'parse_ipv4'
+[02:01:36.005] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Extracting header 'ipv4'
+[02:01:36.005] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Parser state 'parse_ipv4': key is 01
+[02:01:36.005] [bmv2] [T] [thread 28076] [31.0] [cxt 0] Bytes parsed: 34
+[02:01:36.005] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Parser 'parser': end
+[02:01:36.005] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Pipeline 'ingress': start
+[02:01:36.005] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is true
+[02:01:36.005] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(34) Condition "hdr.ipv4.isValid()" (node_3) is true
+[02:01:36.005] [bmv2] [T] [thread 28076] [31.0] [cxt 0] Applying table 'MyIngress.l3_forward.ipv4_lpm'
+[02:01:36.005] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Looking up key:
+* hdr.ipv4.dst_addr   : 0a000101
+
+[02:01:36.005] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Table 'MyIngress.l3_forward.ipv4_lpm': hit with handle 0
+[02:01:36.005] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Dumping entry 0
+Match key:
+* hdr.ipv4.dst_addr   : LPM       0a000101/32
+Action entry: MyIngress.l3_forward.ipv4_forward - 10a000306,3,
+
+[02:01:36.005] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Action entry is MyIngress.l3_forward.ipv4_forward - 10a000306,3,
+[02:01:36.005] [bmv2] [T] [thread 28076] [31.0] [cxt 0] Action MyIngress.l3_forward.ipv4_forward
+[02:01:36.005] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(13) Primitive standard_metadata.egress_spec = port
+[02:01:36.004] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(95) Primitive hdr.report_individual_header.in_type = 4
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(96) Primitive hdr.report_individual_header.len = 0
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(97) Primitive hdr.report_individual_header.rep_md_len = 0
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(98) Primitive hdr.report_individual_header.d = 0
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(99) Primitive hdr.report_individual_header.q = 0
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(100) Primitive hdr.report_individual_header.f = 1
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(101) Primitive hdr.report_individual_header.i = 1
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(102) Primitive hdr.report_individual_header.rsvd = 0
+[02:01:36.005] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(14) Primitive standard_metadata.egress_port = port
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(106) Primitive hdr.report_individual_header.rep_md_bits = 0
+[02:01:36.006] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(15) Primitive hdr.ethernet.src_addr = hdr.ethernet.dst_addr
+[02:01:36.006] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(16) Primitive hdr.ethernet.dst_addr = dstAddr
+[02:01:36.006] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/forward.p4(17) Primitive hdr.ipv4.ttl = hdr.ipv4.ttl - 1
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(107) Primitive hdr.report_individual_header.domain_specific_id = 0
+[02:01:36.006] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(28) Condition "hdr.tcp.isValid() ||hdr.udp.isValid()" (node_5) is false
+[02:01:36.006] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(32) Condition "local_metadata" (node_8) is false
+[02:01:36.006] [bmv2] [T] [thread 28076] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(36) Condition "hdr.int_header.isValid()" (node_10) is false
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(108) Primitive hdr.report_individual_header.domain_specific_md_bits = 0
+[02:01:36.006] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Pipeline 'ingress': end
+[02:01:36.006] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(109) Primitive hdr.report_individual_header.domain_specific_md_status = 0
+[02:01:36.007] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(111) Primitive (bit<32>)hdr.report_ipv4.len + (bit<32>) ETH_HEADER_LEN
+[02:01:36.007] [bmv2] [T] [thread 28077] [30.1] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/include/int_sink.p4(111) Primitive truncate((bit<32>)hdr.report_ipv4.len + (bit<32>) ETH_HEADER_LEN)
+[02:01:36.007] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Pipeline 'egress': end
+[02:01:36.007] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparser 'deparser': start
+[02:01:36.007] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Updating checksum 'cksum'
+[02:01:36.007] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Updating checksum 'cksum_0'
+[02:01:36.007] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'report_ethernet'
+[02:01:36.007] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'report_ipv4'
+[02:01:36.007] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'report_udp'
+[02:01:36.007] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'report_group_header'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'report_individual_header'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'ethernet'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'ipv4'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'udp'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'intl4_shim'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'int_header'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'int_switch_id'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'int_level1_port_ids'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'int_hop_latency'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'int_q_occupancy'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'int_ingress_tstamp'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'int_egress_tstamp'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'int_level2_port_ids'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparsing header 'int_egress_tx_util'
+[02:01:36.008] [bmv2] [D] [thread 28077] [30.1] [cxt 0] Deparser 'deparser': end
+[02:01:36.010] [bmv2] [D] [thread 28081] [30.1] [cxt 0] Transmitting packet of size 164 out of port 4
+[02:01:36.006] [bmv2] [D] [thread 28076] [31.0] [cxt 0] Egress port is 3
+[02:01:36.010] [bmv2] [D] [thread 28080] [31.0] [cxt 0] Pipeline 'egress': start
+[02:01:36.011] [bmv2] [T] [thread 28080] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(69) Condition "hdr.int_header.isValid() && standard_metadata.instance_type != 1" (node_14) is false
+[02:01:36.011] [bmv2] [T] [thread 28080] [31.0] [cxt 0] /home/lff/Desktop/SDN/P4/In-band-Network-Telemetry/INT_v2_1/int-mx/p4src/int_mx.p4(75) Condition "standard_metadata.instance_type == 1" (node_17) is false
+[02:01:36.011] [bmv2] [D] [thread 28080] [31.0] [cxt 0] Pipeline 'egress': end
+[02:01:36.011] [bmv2] [D] [thread 28080] [31.0] [cxt 0] Deparser 'deparser': start
+[02:01:36.027] [bmv2] [D] [thread 28080] [31.0] [cxt 0] Updating checksum 'cksum'
+[02:01:36.028] [bmv2] [T] [thread 28080] [31.0] [cxt 0] Skipping checksum 'cksum_0' update because condition not met
+[02:01:36.028] [bmv2] [D] [thread 28080] [31.0] [cxt 0] Deparsing header 'ethernet'
+[02:01:36.028] [bmv2] [D] [thread 28080] [31.0] [cxt 0] Deparsing header 'ipv4'
+[02:01:36.028] [bmv2] [D] [thread 28080] [31.0] [cxt 0] Deparser 'deparser': end
+[02:01:36.030] [bmv2] [D] [thread 28081] [31.0] [cxt 0] Transmitting packet of size 84 out of port 3
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory

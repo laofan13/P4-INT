@@ -1,0 +1,27 @@
+Obtaining JSON from switch...
+Done
+Control utility for runtime P4 table manipulation
+RuntimeCmd: Adding entry to lpm match table l3_forward.ipv4_lpm
+match key:           LPM-0a:00:01:01/32
+action:              ipv4_forward
+runtime data:        00:01:0a:00:03:04	00:01
+Entry has been added with handle 0
+RuntimeCmd: Adding entry to lpm match table l3_forward.ipv4_lpm
+match key:           LPM-0a:00:03:02/24
+action:              ipv4_forward
+runtime data:        00:01:0a:00:03:07	00:02
+Entry has been added with handle 1
+RuntimeCmd: Adding entry to lpm match table l3_forward.ipv4_lpm
+match key:           LPM-0a:00:03:03/24
+action:              ipv4_forward
+runtime data:        00:01:0a:00:03:07	00:02
+Invalid table operation (DUPLICATE_ENTRY)
+RuntimeCmd: RuntimeCmd: Setting default action of process_int_transit.tb_int_insert
+action:              init_metadata
+runtime data:        00:00:00:02
+RuntimeCmd: Adding entry to exact match table process_int_report.tb_generate_report
+match key:           
+action:              do_report_encapsulation
+runtime data:        00:01:0a:00:03:07	00:01:0a:00:03:0a	0a:00:00:01	0a:00:00:02	04:d2
+Entry has been added with handle 0
+RuntimeCmd: 
