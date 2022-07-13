@@ -48,8 +48,8 @@ control process_int_source (
     inout local_metadata_t local_metadata) {
 
     action int_source(bit<5> hop_metadata_len, bit<8> remaining_hop_cnt, bit<4> ins_mask0003, bit<4> ins_mask0407) {
-        
-        hdr.intl4_shim.setValid();                              // insert INT shim header
+        // insert INT shim header
+        hdr.intl4_shim.setValid();                              
         hdr.intl4_shim.int_type = 1;                            // int_type: Hop-by-hop type (1) , destination type (2), MX-type (3)
         hdr.intl4_shim.npt = 0;                                 // next protocol type: 0
         hdr.intl4_shim.len = INT_HEADER_WORD;                   // This is 3 from 0xC (INT_TOTAL_HEADER_SIZE >> 2)

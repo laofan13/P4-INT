@@ -25,14 +25,13 @@ control MyIngress(inout headers hdr,
         if(hdr.ipv4.isValid()) {
             l3_forward.apply(hdr, local_metadata, standard_metadata);
         
-            if(hdr.tcp.isValid() ||hdr.udp.isValid() ) {
+            if(hdr.udp.isValid() ) {
                 process_int_source_sink.apply(hdr, local_metadata, standard_metadata);
             }
             
             if (local_metadata.int_meta.source == true) {
                 process_int_source.apply(hdr, local_metadata);
             } 
-
 
             if (local_metadata.int_meta.sink == true && hdr.int_header.isValid()) {
                 // clone packet for Telemetry Report
