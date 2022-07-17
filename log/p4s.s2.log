@@ -1,0 +1,310 @@
+Calling target program-options parser
+[23:48:34.145] [bmv2] [D] [thread 4628] Set default default entry for table 'MyIngress.l3_forward.ipv4_lpm': MyIngress.l3_forward.drop - 
+[23:48:34.146] [bmv2] [D] [thread 4628] Set default default entry for table 'MyIngress.process_int_source_sink.tb_set_source': NoAction - 
+[23:48:34.146] [bmv2] [D] [thread 4628] Set default default entry for table 'MyIngress.process_int_source_sink.tb_set_sink': NoAction - 
+[23:48:34.146] [bmv2] [D] [thread 4628] Set default default entry for table 'MyIngress.process_int_source.tb_int_source': NoAction - 
+[23:48:34.146] [bmv2] [D] [thread 4628] Set default default entry for table 'tbl_int_md39': int_md39 - 
+[23:48:34.147] [bmv2] [D] [thread 4628] Set default default entry for table 'tbl_act': act - 
+[23:48:34.147] [bmv2] [D] [thread 4628] Set default default entry for table 'MyEgress.process_int_transit.tb_int_insert': NoAction - 
+[23:48:34.147] [bmv2] [D] [thread 4628] Set default default entry for table 'tbl_int_transit394': int_transit394 - 
+[23:48:34.147] [bmv2] [D] [thread 4628] Set default default entry for table 'MyEgress.process_int_transit.tb_int_inst_0003': NoAction - 
+[23:48:34.147] [bmv2] [D] [thread 4628] Entry 0 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.147] [bmv2] [D] [thread 4628] Dumping entry 0
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     00
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i0 - 
+
+[23:48:34.147] [bmv2] [D] [thread 4628] Entry 1 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.147] [bmv2] [D] [thread 4628] Dumping entry 1
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     01
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i1 - 
+
+[23:48:34.147] [bmv2] [D] [thread 4628] Entry 2 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 2
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     02
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i2 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 3 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 3
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     03
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i3 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 4 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 4
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     04
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i4 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 5 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 5
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     05
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i5 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 6 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 6
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     06
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i6 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 7 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 7
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     07
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i7 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 8 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 8
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     08
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i8 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 9 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 9
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     09
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i9 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 10 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 10
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0a
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i10 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 11 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 11
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0b
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i11 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 12 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 12
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0c
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i12 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 13 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 13
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0d
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i13 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 14 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 14
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0e
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i14 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Entry 15 added to table 'MyEgress.process_int_transit.tb_int_inst_0003'
+[23:48:34.148] [bmv2] [D] [thread 4628] Dumping entry 15
+Match key:
+* hdr.int_header.instruction_mask_0003: EXACT     0f
+Action entry: MyEgress.process_int_transit.int_set_header_0003_i15 - 
+
+[23:48:34.148] [bmv2] [D] [thread 4628] Set default default entry for table 'MyEgress.process_int_transit.tb_int_inst_0407': NoAction - 
+[23:48:34.151] [bmv2] [D] [thread 4628] Entry 0 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.151] [bmv2] [D] [thread 4628] Dumping entry 0
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     00
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i0 - 
+
+[23:48:34.151] [bmv2] [D] [thread 4628] Entry 1 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.151] [bmv2] [D] [thread 4628] Dumping entry 1
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     01
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i1 - 
+
+[23:48:34.151] [bmv2] [D] [thread 4628] Entry 2 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.151] [bmv2] [D] [thread 4628] Dumping entry 2
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     02
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i2 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 3 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 3
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     03
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i3 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 4 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 4
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     04
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i4 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 5 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 5
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     05
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i5 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 6 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 6
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     06
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i6 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 7 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 7
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     07
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i7 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 8 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 8
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     08
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i8 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 9 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 9
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     09
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i9 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 10 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 10
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0a
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i10 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 11 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 11
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0b
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i11 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 12 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 12
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0c
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i12 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 13 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 13
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0d
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i13 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 14 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 14
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0e
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i14 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Entry 15 added to table 'MyEgress.process_int_transit.tb_int_inst_0407'
+[23:48:34.152] [bmv2] [D] [thread 4628] Dumping entry 15
+Match key:
+* hdr.int_header.instruction_mask_0407: EXACT     0f
+Action entry: MyEgress.process_int_transit.int_set_header_0407_i15 - 
+
+[23:48:34.152] [bmv2] [D] [thread 4628] Set default default entry for table 'tbl_int_transit400': int_transit400 - 
+[23:48:34.152] [bmv2] [D] [thread 4628] Set default default entry for table 'tbl_int_transit404': int_transit404 - 
+[23:48:34.152] [bmv2] [D] [thread 4628] Set default default entry for table 'tbl_int_transit407': int_transit407 - 
+[23:48:34.152] [bmv2] [D] [thread 4628] Set default default entry for table 'tbl_int_transit410': int_transit410 - 
+[23:48:34.152] [bmv2] [D] [thread 4628] Set default default entry for table 'MyEgress.process_int_report.tb_generate_report': NoAction - 
+[23:48:34.152] [bmv2] [D] [thread 4628] Set default default entry for table 'MyEgress.process_int_sink.tb_int_sink': MyEgress.process_int_sink.int_sink - 
+Adding interface s2-eth1 as port 1
+[23:48:34.161] [bmv2] [D] [thread 4628] Adding interface s2-eth1 as port 1
+Adding interface s2-eth2 as port 2
+[23:48:34.191] [bmv2] [D] [thread 4628] Adding interface s2-eth2 as port 2
+Adding interface s2-cpu-eth0 as port 3
+[23:48:34.219] [bmv2] [D] [thread 4628] Adding interface s2-cpu-eth0 as port 3
+[23:48:34.247] [bmv2] [I] [thread 4628] Starting Thrift server on port 9091
+[23:48:34.248] [bmv2] [I] [thread 4628] Thrift server was started
+[23:48:34.299] [bmv2] [D] [thread 4634] [0.0] [cxt 0] Processing packet received on port 2
+[23:48:34.299] [bmv2] [D] [thread 4634] [0.0] [cxt 0] Parser 'parser': start
+[23:48:34.299] [bmv2] [D] [thread 4634] [0.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:48:34.299] [bmv2] [D] [thread 4634] [0.0] [cxt 0] Extracting header 'ethernet'
+[23:48:34.299] [bmv2] [D] [thread 4634] [0.0] [cxt 0] Parser state 'start': key is 86dd
+[23:48:34.299] [bmv2] [T] [thread 4634] [0.0] [cxt 0] Bytes parsed: 14
+[23:48:34.299] [bmv2] [D] [thread 4634] [0.0] [cxt 0] Parser 'parser': end
+[23:48:34.299] [bmv2] [D] [thread 4634] [0.0] [cxt 0] Pipeline 'ingress': start
+[23:48:34.299] [bmv2] [T] [thread 4634] [0.0] [cxt 0] /home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[23:48:34.299] [bmv2] [D] [thread 4634] [0.0] [cxt 0] Pipeline 'ingress': end
+[23:48:34.299] [bmv2] [D] [thread 4634] [0.0] [cxt 0] Egress port is 0
+[23:48:34.300] [bmv2] [D] [thread 4635] [0.0] [cxt 0] Pipeline 'egress': start
+[23:48:34.301] [bmv2] [T] [thread 4635] [0.0] [cxt 0] /home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4(55) Condition "hdr.int_header.isValid()" (node_14) is false
+[23:48:34.301] [bmv2] [D] [thread 4635] [0.0] [cxt 0] Pipeline 'egress': end
+[23:48:34.301] [bmv2] [D] [thread 4635] [0.0] [cxt 0] Deparser 'deparser': start
+[23:48:34.301] [bmv2] [T] [thread 4635] [0.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[23:48:34.301] [bmv2] [D] [thread 4635] [0.0] [cxt 0] Deparsing header 'ethernet'
+[23:48:34.301] [bmv2] [D] [thread 4635] [0.0] [cxt 0] Deparser 'deparser': end
+[23:48:34.301] [bmv2] [D] [thread 4639] [0.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[23:48:34.329] [bmv2] [D] [thread 4634] [1.0] [cxt 0] Processing packet received on port 1
+[23:48:34.329] [bmv2] [D] [thread 4634] [1.0] [cxt 0] Parser 'parser': start
+[23:48:34.329] [bmv2] [D] [thread 4634] [1.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:48:34.329] [bmv2] [D] [thread 4634] [1.0] [cxt 0] Extracting header 'ethernet'
+[23:48:34.329] [bmv2] [D] [thread 4634] [1.0] [cxt 0] Parser state 'start': key is 86dd
+[23:48:34.329] [bmv2] [T] [thread 4634] [1.0] [cxt 0] Bytes parsed: 14
+[23:48:34.329] [bmv2] [D] [thread 4634] [1.0] [cxt 0] Parser 'parser': end
+[23:48:34.329] [bmv2] [D] [thread 4634] [1.0] [cxt 0] Pipeline 'ingress': start
+[23:48:34.329] [bmv2] [T] [thread 4634] [1.0] [cxt 0] /home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[23:48:34.329] [bmv2] [D] [thread 4634] [1.0] [cxt 0] Pipeline 'ingress': end
+[23:48:34.329] [bmv2] [D] [thread 4634] [1.0] [cxt 0] Egress port is 0
+[23:48:34.329] [bmv2] [D] [thread 4635] [1.0] [cxt 0] Pipeline 'egress': start
+[23:48:34.329] [bmv2] [T] [thread 4635] [1.0] [cxt 0] /home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4(55) Condition "hdr.int_header.isValid()" (node_14) is false
+[23:48:34.329] [bmv2] [D] [thread 4635] [1.0] [cxt 0] Pipeline 'egress': end
+[23:48:34.329] [bmv2] [D] [thread 4635] [1.0] [cxt 0] Deparser 'deparser': start
+[23:48:34.329] [bmv2] [T] [thread 4635] [1.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[23:48:34.329] [bmv2] [D] [thread 4635] [1.0] [cxt 0] Deparsing header 'ethernet'
+[23:48:34.329] [bmv2] [D] [thread 4635] [1.0] [cxt 0] Deparser 'deparser': end
+[23:48:34.329] [bmv2] [D] [thread 4639] [1.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[23:48:34.520] [bmv2] [D] [thread 4634] [2.0] [cxt 0] Processing packet received on port 1
+[23:48:34.520] [bmv2] [D] [thread 4634] [2.0] [cxt 0] Parser 'parser': start
+[23:48:34.520] [bmv2] [D] [thread 4634] [2.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:48:34.520] [bmv2] [D] [thread 4634] [2.0] [cxt 0] Extracting header 'ethernet'
+[23:48:34.520] [bmv2] [D] [thread 4634] [2.0] [cxt 0] Parser state 'start': key is 86dd
+[23:48:34.520] [bmv2] [T] [thread 4634] [2.0] [cxt 0] Bytes parsed: 14
+[23:48:34.520] [bmv2] [D] [thread 4634] [2.0] [cxt 0] Parser 'parser': end
+[23:48:34.520] [bmv2] [D] [thread 4634] [2.0] [cxt 0] Pipeline 'ingress': start
+[23:48:34.520] [bmv2] [T] [thread 4634] [2.0] [cxt 0] /home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[23:48:34.520] [bmv2] [D] [thread 4634] [2.0] [cxt 0] Pipeline 'ingress': end
+[23:48:34.520] [bmv2] [D] [thread 4634] [2.0] [cxt 0] Egress port is 0
+[23:48:34.520] [bmv2] [D] [thread 4635] [2.0] [cxt 0] Pipeline 'egress': start
+[23:48:34.520] [bmv2] [T] [thread 4635] [2.0] [cxt 0] /home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4(55) Condition "hdr.int_header.isValid()" (node_14) is false
+[23:48:34.520] [bmv2] [D] [thread 4635] [2.0] [cxt 0] Pipeline 'egress': end
+[23:48:34.520] [bmv2] [D] [thread 4635] [2.0] [cxt 0] Deparser 'deparser': start
+[23:48:34.520] [bmv2] [T] [thread 4635] [2.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[23:48:34.520] [bmv2] [D] [thread 4635] [2.0] [cxt 0] Deparsing header 'ethernet'
+[23:48:34.520] [bmv2] [D] [thread 4635] [2.0] [cxt 0] Deparser 'deparser': end
+[23:48:34.520] [bmv2] [D] [thread 4639] [2.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[23:48:34.552] [bmv2] [D] [thread 4634] [3.0] [cxt 0] Processing packet received on port 2
+[23:48:34.552] [bmv2] [D] [thread 4634] [3.0] [cxt 0] Parser 'parser': start
+[23:48:34.552] [bmv2] [D] [thread 4634] [3.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:48:34.552] [bmv2] [D] [thread 4634] [3.0] [cxt 0] Extracting header 'ethernet'
+[23:48:34.552] [bmv2] [D] [thread 4634] [3.0] [cxt 0] Parser state 'start': key is 86dd
+[23:48:34.552] [bmv2] [T] [thread 4634] [3.0] [cxt 0] Bytes parsed: 14
+[23:48:34.552] [bmv2] [D] [thread 4634] [3.0] [cxt 0] Parser 'parser': end
+[23:48:34.552] [bmv2] [D] [thread 4634] [3.0] [cxt 0] Pipeline 'ingress': start
+[23:48:34.552] [bmv2] [T] [thread 4634] [3.0] [cxt 0] /home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4(25) Condition "hdr.ipv4.isValid()" (node_2) is false
+[23:48:34.552] [bmv2] [D] [thread 4634] [3.0] [cxt 0] Pipeline 'ingress': end
+[23:48:34.552] [bmv2] [D] [thread 4634] [3.0] [cxt 0] Egress port is 0
+[23:48:34.552] [bmv2] [D] [thread 4635] [3.0] [cxt 0] Pipeline 'egress': start
+[23:48:34.552] [bmv2] [T] [thread 4635] [3.0] [cxt 0] /home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4(55) Condition "hdr.int_header.isValid()" (node_14) is false
+[23:48:34.552] [bmv2] [D] [thread 4635] [3.0] [cxt 0] Pipeline 'egress': end
+[23:48:34.552] [bmv2] [D] [thread 4635] [3.0] [cxt 0] Deparser 'deparser': start
+[23:48:34.552] [bmv2] [T] [thread 4635] [3.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[23:48:34.552] [bmv2] [D] [thread 4635] [3.0] [cxt 0] Deparsing header 'ethernet'
+[23:48:34.552] [bmv2] [D] [thread 4635] [3.0] [cxt 0] Deparser 'deparser': end
+[23:48:34.552] [bmv2] [D] [thread 4639] [3.0] [cxt 0] Transmitting packet of size 86 out of port 0
+[23:48:34.990] [bmv2] [T] [thread 4727] bm_get_config
+[23:48:35.008] [bmv2] [T] [thread 4727] bm_table_add_entry
+[23:48:35.008] [bmv2] [D] [thread 4727] Entry 0 added to table 'MyIngress.l3_forward.ipv4_lpm'
+[23:48:35.008] [bmv2] [D] [thread 4727] Dumping entry 0
+Match key:
+* hdr.ipv4.dst_addr   : LPM       0a000101/32
+Action entry: MyIngress.l3_forward.ipv4_forward - 0,1,
+
+[23:48:35.016] [bmv2] [T] [thread 4727] bm_table_add_entry
+[23:48:35.016] [bmv2] [D] [thread 4727] Entry 1 added to table 'MyIngress.l3_forward.ipv4_lpm'
+[23:48:35.016] [bmv2] [D] [thread 4727] Dumping entry 1
+Match key:
+* hdr.ipv4.dst_addr   : LPM       0a000302/32
+Action entry: MyIngress.l3_forward.ipv4_forward - 0,2,
+
+[23:48:35.017] [bmv2] [T] [thread 4727] bm_set_default_action
+[23:48:35.017] [bmv2] [D] [thread 4727] Set default entry for table 'MyEgress.process_int_transit.tb_int_insert': MyEgress.process_int_transit.init_metadata - 2,
