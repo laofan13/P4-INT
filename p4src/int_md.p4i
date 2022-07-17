@@ -1,7 +1,7 @@
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4"
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4"
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4"
 /* -*- P4_16 -*- */
 # 1 "/usr/share/p4c/p4include/core.p4" 1
 /*
@@ -86,7 +86,7 @@ match_kind {
     /// Longest-prefix match.
     lpm
 }
-# 3 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
+# 3 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
 # 1 "/usr/share/p4c/p4include/v1model.p4" 1
 /*
 Copyright 2013-present Barefoot Networks, Inc.
@@ -872,8 +872,8 @@ package V1Switch<H, M>(Parser<H, M> p,
                        ComputeChecksum<H, M> ck,
                        Deparser<H> dep
                        );
-# 4 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/defines.p4" 1
+# 4 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/defines.p4" 1
 
 
 
@@ -886,7 +886,7 @@ package V1Switch<H, M>(Parser<H, M> p,
 
 
 //packet type
-# 21 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/defines.p4"
+# 21 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/defines.p4"
 typedef bit<48> mac_t;
 typedef bit<32> ip_address_t;
 typedef bit<16> l4_port_t;
@@ -909,8 +909,8 @@ const bit<8> CPU_MIRROR_SESSION_ID = 250;
 const bit<32> REPORT_MIRROR_SESSION_ID = 500;
 const bit<6> HW_ID = 1;
 const bit<8> REPORT_HDR_TTL = 64;
-# 5 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/headers.p4" 1
+# 5 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/headers.p4" 1
 
 
 
@@ -959,12 +959,12 @@ header udp_t {
     bit<16> checksum;
 }
 const bit<8> UDP_HEADER_LEN = 8;
-# 6 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/int_headers.p4" 1
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/defines.p4" 1
-# 2 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/int_headers.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/headers.p4" 1
-# 3 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/int_headers.p4" 2
+# 6 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/int_headers.p4" 1
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/defines.p4" 1
+# 2 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/int_headers.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/headers.p4" 1
+# 3 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/int_headers.p4" 2
 
 
 
@@ -1137,8 +1137,8 @@ struct local_metadata_t {
     bit<16> l4_dst_port;
     int_metadata_t int_meta;
 }
-# 7 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/parser.p4" 1
+# 7 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/parser.p4" 1
 /*************************************************************************
 *********************** P A R S E R  *******************************
 *************************************************************************/
@@ -1238,11 +1238,11 @@ control MyDeparser(packet_out packet, in headers hdr) {
 
     }
 }
-# 8 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/checksum.p4" 1
+# 8 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/checksum.p4" 1
 
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/int_headers.p4" 1
-# 3 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/checksum.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/int_headers.p4" 1
+# 3 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/checksum.p4" 2
 
 control MyVerifyChecksum(inout headers hdr, inout local_metadata_t local_metadata) {
     apply { }
@@ -1291,8 +1291,8 @@ control MyComputeChecksum(inout headers hdr, inout local_metadata_t local_metada
         // #endif // __INT_HEADERS__
     }
 }
-# 9 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/forward.p4" 1
+# 9 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/forward.p4" 1
 
 
 
@@ -1367,8 +1367,8 @@ control port_forward(inout headers hdr,
         tb_port_forward.apply();
      }
 }
-# 10 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/int_source.p4" 1
+# 10 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/int_source.p4" 1
 /* -*- P4_16 -*- */
 control process_int_source_sink (
     inout headers hdr,
@@ -1476,8 +1476,8 @@ control process_int_source (
         tb_int_source.apply();
     }
 }
-# 11 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/int_transit.p4" 1
+# 11 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/int_transit.p4" 1
 control process_int_transit (
     inout headers hdr,
     inout local_metadata_t local_metadata,
@@ -1891,8 +1891,8 @@ control process_int_transit (
         }
     }
 }
-# 12 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
-# 1 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/include/int_sink.p4" 1
+# 12 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
+# 1 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/include/int_sink.p4" 1
 /* -*- P4_16 -*- */
 
 control process_int_sink (
@@ -2008,7 +2008,7 @@ control process_int_report (
         tb_generate_report.apply();
     }
 }
-# 13 "/home/parallels/Desktop/SDN/p4-project/P4-INT/p4src/int_md.p4" 2
+# 13 "/home/lff/Desktop/SDN/P4-Project/In-band-Network-Telemetry/P4-INT/p4src/int_md.p4" 2
 
 
 /*************************************************************************

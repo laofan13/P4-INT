@@ -1,5 +1,5 @@
 //creates a mirroring ID 100 to output port 3
-mirroring_add 500 4
+mirroring_add 500 3
 
 table_add l3_forward.ipv4_lpm ipv4_forward 10.0.1.1/32 => 00:00:00:00:00:00 2
 table_add l3_forward.ipv4_lpm ipv4_forward 10.0.3.2/32 => 00:00:0a:00:03:02 1
