@@ -55,8 +55,14 @@ control process_int_report (
         seq_number.write(0, tmp);
     }
 
-    action do_report_encapsulation(mac_t src_mac, mac_t mon_mac, ip_address_t src_ip,
-            ip_address_t mon_ip, l4_port_t mon_port) {
+    action do_report_encapsulation( mac_t src_mac, 
+                                    mac_t mon_mac, 
+                                    ip_address_t src_ip,
+                                    ip_address_t mon_ip, 
+                                    l4_port_t mon_port) {
+
+        // INT Raport structure
+        // [Eth][IP][UDP][INT RAPORT HDR][ETH][IP][UDP/TCP][INT HDR][INT DATA]
         //Report Ethernet Header
         hdr.report_ethernet.setValid();
         hdr.report_ethernet.dst_addr = mon_mac;
@@ -71,8 +77,13 @@ control process_int_report (
         hdr.report_ipv4.ecn = 2w0;
 
         /* Total Len is report_ipv4_len + report_udp_len + report_fixed_hdr_len + ethernet_len + ipv4_totalLen */
-        hdr.report_ipv4.len = (bit<16>) IPV4_MIN_HEAD_LEN + (bit<16>) UDP_HEADER_LEN + (bit<16>) REPORT_GROUP_HEADER_LEN +
-                              (bit<16>) ETH_HEADER_LEN + (bit<16>) IPV4_MIN_HEAD_LEN + (bit<16>) UDP_HEADER_LEN + 
+        hdr.report_ipv4.len = (bit<16>) IPV4_MIN_HEAD_LEN + 
+                              (bit<16>) UDP_HEADER_LEN + 
+                              (bit<16>) REPORT_GROUP_HEADER_LEN +
+                              (bit<16>) REPORT_INDIVIDUAL_HEADER_LEN +
+                              (bit<16>) ETH_HEADER_LEN + 
+                              (bit<16>) IPV4_MIN_HEAD_LEN + 
+                              (bit<16>) UDP_HEADER_LEN + 
                               INT_SHIM_HEADER_SIZE + (((bit<16>) hdr.intl4_shim.len)<< 2);
 
         hdr.report_ipv4.identification = 0;
@@ -87,8 +98,12 @@ control process_int_report (
         hdr.report_udp.setValid();
         hdr.report_udp.src_port = 1234;
         hdr.report_udp.dst_port = mon_port;
-        hdr.report_udp.length_ = (bit<16>) UDP_HEADER_LEN + (bit<16>) REPORT_GROUP_HEADER_LEN +
-                                 (bit<16>) ETH_HEADER_LEN + (bit<16>) IPV4_MIN_HEAD_LEN + (bit<16>) UDP_HEADER_LEN +
+        hdr.report_udp.length_ = (bit<16>) UDP_HEADER_LEN + 
+                                 (bit<16>) REPORT_GROUP_HEADER_LEN +
+                                 (bit<16>) REPORT_INDIVIDUAL_HEADER_LEN +
+                                 (bit<16>) ETH_HEADER_LEN + 
+                                 (bit<16>) IPV4_MIN_HEAD_LEN + 
+                                 (bit<16>) UDP_HEADER_LEN +
                                  INT_SHIM_HEADER_SIZE + (((bit<16>) hdr.intl4_shim.len)<< 2);
         
         hdr.report_group_header.setValid();
@@ -97,6 +112,25 @@ control process_int_report (
         seq_number.read(hdr.report_group_header.seq_no, 0);
         increment_counter();
         hdr.report_group_header.node_id = local_metadata.int_meta.switch_id;
+
+        /* Telemetry Report Individual Header */
+        hdr.report_individual_header.setValid();
+        hdr.report_individual_header.rep_type = 1;
+        hdr.report_individual_header.in_type = 3;
+        hdr.report_individual_header.rep_len = 0;
+        hdr.report_individual_header.md_len = 0;
+        hdr.report_individual_header.d = 0;
+        hdr.report_individual_header.q = 0;
+        hdr.report_individual_header.f = 1;
+        hdr.report_individual_header.i = 0;
+        hdr.report_individual_header.rsvd = 0;
+
+        /* Individual report inner contents */
+
+        hdr.report_individual_header.rep_md_bits = 0;
+        hdr.report_individual_header.domain_specific_id = 0;
+        hdr.report_individual_header.domain_specific_md_bits = 0;
+        hdr.report_individual_header.domain_specific_md_status = 0;
 
         truncate((bit<32>)hdr.report_ipv4.len + (bit<32>) ETH_HEADER_LEN);
     }

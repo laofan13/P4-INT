@@ -94,8 +94,8 @@ const bit<8> REPORT_GROUP_HEADER_LEN = 8;
 header report_individual_header_t {
     bit<4>  rep_type;
     bit<4>  in_type;
-    bit<8>  len;
-    bit<8>  rep_md_len;
+    bit<8>  rep_len;
+    bit<8>  md_len;
     bit<1>  d;
     bit<1>  q;
     bit<1>  f;
@@ -154,7 +154,34 @@ struct headers {
     drop_report_header_t        drop_report_header;
 }
 
-const bit<8> CLONE_FL  = 1;
+const bit<8> CLONE_FL_1  = 1;
+
+struct preserving_metadata_t {
+    @field_list(CLONE_FL_1)
+    bit<9> ingress_port;
+    bit<9> egress_spec;
+    @field_list(CLONE_FL_1)
+    bit<9> egress_port;
+    bit<32> clone_spec;
+    bit<32> instance_type;
+    bit<1> drop;
+    bit<16> recirculate_port;
+    bit<32> packet_length;
+    bit<32> enq_timestamp;
+    bit<19> enq_qdepth;
+    bit<32> deq_timedelta;
+    @field_list(CLONE_FL_1)
+    bit<19> deq_qdepth;
+    @field_list(CLONE_FL_1)
+    bit<48> ingress_global_timestamp;
+    bit<48> egress_global_timestamp;
+    bit<32> lf_field_list;
+    bit<16> mcast_grp;
+    bit<32> resubmit_flag;
+    bit<16> egress_rid;
+    bit<1> checksum_error;
+    bit<32> recirculate_flag;
+}
 
 struct int_metadata_t {
     switch_id_t switch_id;
@@ -171,6 +198,7 @@ struct local_metadata_t {
     bit<16>       l4_src_port;
     bit<16>       l4_dst_port;
     int_metadata_t int_meta;
+    preserving_metadata_t perserv_meta;
 }
 
 #endif

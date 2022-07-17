@@ -72,6 +72,7 @@ control MyDeparser(packet_out packet, in headers hdr) {
         packet.emit(hdr.report_ipv4);
         packet.emit(hdr.report_udp);
         packet.emit(hdr.report_group_header);
+        packet.emit(hdr.report_individual_header);
 
         // original headers
         packet.emit(hdr.ethernet);
