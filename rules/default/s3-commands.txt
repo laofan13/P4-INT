@@ -1,0 +1,12 @@
+//creates a mirroring ID 100 to output port 3
+mirroring_add 500 3
+
+table_add l3_forward.ipv4_lpm ipv4_forward 10.0.1.1/32 => 00:00:00:00:00:00 2
+table_add l3_forward.ipv4_lpm ipv4_forward 10.0.3.2/32 => 00:00:0a:00:03:02 1
+
+//set up process_int_source_sink
+table_add process_int_source_sink.tb_set_sink int_set_sink 1 => 
+table_add process_int_report.tb_generate_report do_report_encapsulation => 00:01:0a:00:03:07 00:01:0a:00:03:0A 10.0.0.1 10.0.0.2 1234
+
+//set up switch ID
+table_set_default process_int_transit.tb_int_insert init_metadata 3

@@ -1,0 +1,10 @@
+//set up ipv4_lpm table
+table_add l3_forward.ipv4_lpm ipv4_forward 10.0.1.1/32 => 00:00:0a:00:01:01 1
+table_add l3_forward.ipv4_lpm ipv4_forward 10.0.3.2/32 => 00:00:00:00:00:00 2
+
+//set up process_int_source_sink
+table_add process_int_source_sink.tb_set_source int_set_source 1 => 
+table_add process_int_source.tb_int_source int_source 10.0.1.1&&&0xFFFFFFFF 10.0.3.2&&&0xFFFFFFFF 0x00&&&0x00 0x00&&&0x00 => 11 10 0xF 0xF 10
+
+//set up switch ID
+table_set_default process_int_transit.tb_int_insert init_metadata 1
