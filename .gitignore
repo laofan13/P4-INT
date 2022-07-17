@@ -1,0 +1,14 @@
+*.pyc
+# vim swap files
+.*.sw?
+.sw?
+# vscode settings directory
+.vscode
+#OS X specific files.
+.DS_store
+*.p4i
+*.json
+*.log
+*.pcap
+./pcap
+./log
