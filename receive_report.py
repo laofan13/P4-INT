@@ -1,64 +1,66 @@
-#!/usr/bin/env python
-import sys
-import os
-import io
-import csv
-import argparse
-from datetime import datetime
+#!/usr/bin/env python3
 
-from scapy.all import sniff, sendp, hexdump, get_if_list, get_if_hwaddr
+import sys
+
+import io
+
+from scapy.all import sniff
 from scapy.all import Packet
-from scapy.all import PacketListField, ShortField, IntField, LongField, BitField, FieldListField, FieldLenField
+from scapy.all import ShortField, BitField
 from scapy.layers.inet import Ether,IP, TCP, UDP, bind_layers
 
 class INTREP(Packet):
-    name = "INT Report Header"
-    fields_desc =  [BitField("version", 0, 4),
-                    BitField("hw_id", 0, 6),
-                    BitField("seq_number", 0, 22),
-                    BitField("node_id", 0, 32)]
+    name = "INT Report Header v2.0"
+    fields_desc =  [
+        BitField("version", 0, 4),
+        BitField("hw_id", 0, 6),
+        BitField("seq_number", 0, 22),
+        BitField("node_id", 0, 32)]
 
 class INTIndiviREP(Packet):
-    name = "INT Report Individual Header"
-    fields_desc =  [BitField("rep_type", 0, 4),
-                    BitField("in_type", 0, 4),
-                    BitField("rep_len", 0, 8),
-                    BitField("md_len", 0, 8),
-                    BitField("flag", 0, 4),
-                    BitField("rsvd", 0, 4),
-                    ShortField("RepMdBits", 0),
-                    ShortField("DomainID", 0),
-                    ShortField("DSMdBits", 0),
-                    ShortField("DSMdstatus", 0)]
+    name = "INT Report Individual Header v2.0"
+
+    fields_desc =  [
+        BitField("rep_type", 0, 4),   
+        BitField("in_type", 0, 4),
+        BitField("rep_len", 0, 8),
+        BitField("md_len", 0, 8),
+        BitField("flag", 0, 4),
+        BitField("rsvd", 0, 4),
+        ShortField("RepMdBits", 0),
+        ShortField("DomainID", 0),
+        ShortField("DSMdBits", 0),
+        ShortField("DSMdstatus", 0)]
                     
 class INTShim(Packet):
-    name = "INT Shim header"
-    fields_desc = [BitField("type", 0, 4),
-                   BitField("next_protocol", 0, 2),
-                   BitField("rsvd", 0, 2),
-                   BitField("int_length", 0, 8),
-                   ShortField("NPT Dependent Field", 0)]
+    name = "INT Shim header v2.1"
+    fields_desc = [
+        BitField("type", 0, 4),
+        BitField("next_protocol", 0, 2),
+        BitField("rsvd", 0, 2),
+        BitField("int_length", 0, 8),
+        ShortField("NPT Dependent Field", 0)]
 
 class INTMD(Packet):
-    name = "INT-MD Header"
-    fields_desc =  [BitField("version", 0, 4),
-                    BitField("flags", 0, 3),
-                    BitField("reserved", 0, 12),
-                    BitField("HopMetaLength", 0, 5),
-                    BitField("RemainingHopCount", 0, 8),
-                    BitField("instruction_mask_0003", 0, 4),
-                    BitField("instruction_mask_0407", 0, 4),
-                    BitField("instruction_mask_0811", 0, 4),
-                    BitField("instruction_mask_1215", 0, 4),
-                    ShortField("DomainID", 0),
-                    ShortField("DomainInstructions", 0),
-                    ShortField("DomainFlags", 0)]
+    name = "INT-MD Header v2.1"
+    fields_desc =  [
+        BitField("version", 0, 4),
+        BitField("flags", 0, 3),
+        BitField("reserved", 0, 12),
+        BitField("HopMetaLength", 0, 5),
+        BitField("RemainingHopCount", 0, 8),
+        BitField("instruction_mask_0003", 0, 4),
+        BitField("instruction_mask_0407", 0, 4),
+        BitField("instruction_mask_0811", 0, 4),
+        BitField("instruction_mask_1215", 0, 4),
+        ShortField("DomainID", 0),
+        ShortField("DomainInstructions", 0),
+        ShortField("DomainFlags", 0)]
 
 bind_layers(UDP,INTREP,dport=1234)
 bind_layers(INTREP,INTIndiviREP)
 bind_layers(INTIndiviREP,Ether,in_type=3)
 bind_layers(INTShim,INTMD,type  = 1)
-
 
 SWITCH_ID_BIT =             0b10000000
 L1_PORT_IDS_BIT =           0b01000000
