@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-import io
-
 from scapy.all import sniff
-from scapy.all import Packet
-from scapy.all import BitField,ShortField
-from scapy.layers.inet import Ether,IP, TCP, UDP, bind_layers
-
 from colllector import *
 
 def handle_pkt(pkt,c):
