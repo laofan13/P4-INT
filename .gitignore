@@ -7,8 +7,9 @@
 #OS X specific files.
 .DS_store
 *.p4i
-*.json
 *.log
 *.pcap
-./pcap
-./log
+pcap
+log
+topology.json
+int_md.json
