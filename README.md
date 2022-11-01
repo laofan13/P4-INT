@@ -50,17 +50,22 @@ This is an example of how you may give instructions on setting up your project l
    ```sh
    make run
    ```
-3. 在另外一个终端,启动环路检查
+3. in mininet terminal
    ```sh
-   sudo python3 receive_loop_report.py
+   xterm h1 h2
    ```
-4. 在mininet环境中，在h1中运行以下脚本
-    ```sh
-   python3 ./send.py --ip 10.0.1.1 --l4 udp --port 8080 --m "hello world !" --c 1
-5. 在mininet环境中，在h2中运行以下脚本
-    ```sh
-    python3 ./receive_report.py
+4. open other desktop terminal,start collector
     ```
+    sudo python3 ./receive_report.py
+    ```
+5. in xterm h2
+    ```sh
+    python3 ./receive.py
+    ```
+6. in xterm h1 
+    ```sh
+   python3 ./send.py --ip 10.0.1.1 --l4 udp --port 8080 --m "hello world !" --c 1    
+   ```
 
 # influxdb operation
 ```sh
