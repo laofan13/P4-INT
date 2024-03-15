@@ -44,7 +44,7 @@ This is an example of how you may give instructions on setting up your project l
 
 1. Clone the repo
    ```sh
-   git clone https://gitee.com/lifengfan/p4-consisit.git
+   git clone github.com/laofan13/P4-INT.git
    ```
 2. run
    ```sh
